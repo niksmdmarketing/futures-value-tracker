@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Futures Value Tracker</title>
+<meta name="description" content="Comparing a model's title-win probabilities against AU bookmaker futures odds to find the biggest edges.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%88%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div class="header-inner">
+      <h1>Futures Value Tracker</h1>
+      <p class="subtitle">Model probabilities vs. Sportsbet / TAB / Unibet futures odds, ranked by edge.</p>
+    </div>
+  </header>
+
+  <main>
+    <section class="status-bar" id="status-bar" aria-live="polite">
+      <p id="last-updated">Loading data&hellip;</p>
+    </section>
+
+    <section class="filters" aria-label="Filters">
+      <div class="filter-group">
+        <label for="filter-sport">Sport</label>
+        <select id="filter-sport">
+          <option value="">All sports</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-competition">Competition</label>
+        <select id="filter-competition">
+          <option value="">All competitions</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-bookmaker">Bookmaker</label>
+        <select id="filter-bookmaker">
+          <option value="">Best price (any bookmaker)</option>
+          <option value="sportsbet">Sportsbet</option>
+          <option value="tab">TAB</option>
+          <option value="unibet">Unibet</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="filter-min-edge">Min. edge %</label>
+        <input type="number" id="filter-min-edge" placeholder="e.g. 0" step="1">
+      </div>
+    </section>
+
+    <section class="table-section">
+      <div class="table-scroll">
+        <table id="edges-table">
+          <thead>
+            <tr>
+              <th data-sort="edge" class="sortable sort-desc">Edge</th>
+              <th>Competition</th>
+              <th>Team</th>
+              <th data-sort="model_probability" class="sortable">Model %</th>
+              <th data-sort="fair_odds" class="sortable">Fair odds</th>
+              <th>Sportsbet</th>
+              <th>TAB</th>
+              <th>Unibet</th>
+              <th data-sort="display_price" class="sortable">Used price</th>
+              <th data-sort="annualised_edge" class="sortable">Annualised</th>
+            </tr>
+          </thead>
+          <tbody id="edges-tbody">
+            <tr><td colspan="10" class="empty-state">Loading&hellip;</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p id="row-count" class="row-count"></p>
+    </section>
+
+    <section class="market-info" id="market-info">
+      <h2>Market details</h2>
+      <div id="market-info-body"></div>
+    </section>
+
+    <section class="unmatched-info" id="unmatched-info" hidden>
+      <h2>Unmatched teams</h2>
+      <p class="hint">Teams the model gave a price to compare against, but couldn't - logged rather than silently dropped.</p>
+      <ul id="unmatched-list"></ul>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>This is quantitative analysis of publicly available odds and projections, not betting advice. Odds and probabilities change; nothing here guarantees a profitable outcome. Bet responsibly.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
