@@ -40,8 +40,19 @@ def main():
         title_match = re.search(r"<title>(.*?)</title>", html, re.I | re.S)
         if title_match:
             print("Title:", title_match.group(1).strip())
+        print("--- first 1500 chars of homepage HTML ---")
+        print(html[:1500])
     except requests.RequestException as exc:
         print(f"request failed: {exc}")
+
+    print("\n=== common paths ===")
+    for path in ["/terms", "/terms-of-service", "/tos", "/legal", "/privacy", "/login", "/pricing", "/about", "/api", "/docs", "/sitemap.xml"]:
+        url = f"https://football-md.com{path}"
+        try:
+            resp = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=15, allow_redirects=True)
+            print(f"{path}: status={resp.status_code} final_url={resp.url} length={len(resp.text)}")
+        except requests.RequestException as exc:
+            print(f"{path}: request failed: {exc}")
 
 
 if __name__ == "__main__":
