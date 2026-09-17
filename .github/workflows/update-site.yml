@@ -4,18 +4,18 @@ name: Update site
 # edges) and commits the resulting docs/data.json, which GitHub Pages
 # serves as the live site.
 #
-# Melbourne is 9am AEST = 23:00 UTC the previous day, but 9am AEDT (during
-# daylight saving) = 22:00 UTC. Rather than hand-maintain the exact
-# transition date each year, this fires at BOTH possible UTC times daily;
-# the first step computes the actual current Melbourne hour (the
-# Australia/Melbourne IANA zone already knows the real transition dates)
-# and skips the rest of the job unless it's really 9am there. So exactly
-# one of the two daily triggers does the work, year-round, automatically.
+# Melbourne is 4pm AEST = 06:00 UTC, but 4pm AEDT (during daylight saving)
+# = 05:00 UTC. Rather than hand-maintain the exact transition date each
+# year, this fires at BOTH possible UTC times daily; the first step
+# computes the actual current Melbourne hour (the Australia/Melbourne
+# IANA zone already knows the real transition dates) and skips the rest
+# of the job unless it's really 4pm there. So exactly one of the two
+# daily triggers does the work, year-round, automatically.
 on:
   workflow_dispatch: {}
   schedule:
-    - cron: '0 22 * * *'
-    - cron: '0 23 * * *'
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
 
 permissions:
   contents: write
@@ -24,13 +24,13 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Check it's ~9am Melbourne time
+      - name: Check it's ~4pm Melbourne time
         if: github.event_name == 'schedule'
         run: |
           MEL_HOUR=$(TZ=Australia/Melbourne date +%H)
           echo "Melbourne hour right now: $MEL_HOUR"
-          if [ "$MEL_HOUR" != "09" ]; then
-            echo "Not 9am in Melbourne - skipping this scheduled trigger (the other one today will run instead)."
+          if [ "$MEL_HOUR" != "16" ]; then
+            echo "Not 4pm in Melbourne - skipping this scheduled trigger (the other one today will run instead)."
             echo "SKIP=true" >> "$GITHUB_ENV"
           fi
 

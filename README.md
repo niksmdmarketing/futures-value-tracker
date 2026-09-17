@@ -131,14 +131,14 @@ point leaves the previously committed `docs/data.json` untouched and
 fails the workflow run loudly.
 
 It runs on `workflow_dispatch` (manual) and on a daily schedule aimed at
-~9am Melbourne time. Melbourne's UTC offset changes with daylight saving
-(9am AEST = 23:00 UTC the previous day; 9am AEDT = 22:00 UTC), so rather
-than hand-maintain the exact transition date every year, the workflow
-fires at *both* possible UTC times daily and its first step checks the
-actual current Melbourne hour (via the `Australia/Melbourne` IANA zone,
-which already knows the real transition dates) — it skips the rest of the
-job unless it's genuinely 9am there. Exactly one of the two daily
-triggers does the work, year-round, with no maintenance needed.
+~4pm Melbourne time. Melbourne's UTC offset changes with daylight saving
+(4pm AEST = 06:00 UTC; 4pm AEDT = 05:00 UTC), so rather than
+hand-maintain the exact transition date every year, the workflow fires at
+*both* possible UTC times daily and its first step checks the actual
+current Melbourne hour (via the `Australia/Melbourne` IANA zone, which
+already knows the real transition dates) — it skips the rest of the job
+unless it's genuinely 4pm there. Exactly one of the two daily triggers
+does the work, year-round, with no maintenance needed.
 
 `.github/workflows/fetch-odds.yml` and `.github/workflows/fetch-probabilities.yml`
 remain as standalone manual tools for debugging either half of the
