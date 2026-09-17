@@ -126,20 +126,24 @@ def main() -> None:
             model_team = team_prob["team"]
             probability = team_prob["probability"]
 
+            # Always attempt the name mapping first (and log a miss)
+            # regardless of probability, so a genuine matching gap is never
+            # masked by a team also happening to round to a negligible
+            # probability.
+            odds_team = map_team_name(sport_key, model_team)
+            if odds_team is None:
+                logger.warning("%s: no team-name mapping for '%s' - skipping", sport_key, model_team)
+                unmatched.append({"competition_key": sport_key, "team": model_team, "reason": "no_mapping"})
+                continue
+
             if probability <= 0:
                 # TeamRankings rounds to 1 decimal place, so this means "some
                 # negligible probability under 0.05%", not literally zero.
                 # Fair odds would be near-infinite and edge trivially -100%
                 # regardless of price, so these just add noise to the
-                # ranking - skip them (not logged as unmatched, since this
-                # isn't a name-matching problem).
+                # ranking - skip them (not logged as unmatched, since the
+                # name matched fine; this isn't a name-matching problem).
                 zero_probability_count += 1
-                continue
-
-            odds_team = map_team_name(sport_key, model_team)
-            if odds_team is None:
-                logger.warning("%s: no team-name mapping for '%s' - skipping", sport_key, model_team)
-                unmatched.append({"competition_key": sport_key, "team": model_team, "reason": "no_mapping"})
                 continue
 
             team_prices = prices_by_team.get(odds_team)
