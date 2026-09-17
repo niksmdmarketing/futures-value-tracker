@@ -1,22 +1,72 @@
-name: Fetch odds
+name: Fetch odds and update site
 
+# Runs once a day - odds cost The Odds API credits, so this is the only
+# workflow that spends them. Recalculates edges using whatever model
+# probabilities were most recently fetched by fetch-probabilities.yml
+# (which runs more often, for free) and commits the result.
+#
+# Melbourne is 4pm AEST = 06:00 UTC, but 4pm AEDT (during daylight saving)
+# = 05:00 UTC. Rather than hand-maintain the exact transition date each
+# year, this fires at BOTH possible UTC times daily; the first step
+# computes the actual current Melbourne hour (the Australia/Melbourne
+# IANA zone already knows the real transition dates) and skips the rest
+# of the job unless it's really 4pm there. So exactly one of the two
+# daily triggers does the work, year-round, automatically.
 on:
   workflow_dispatch: {}
+  schedule:
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     steps:
+      - name: Check it's ~4pm Melbourne time
+        if: github.event_name == 'schedule'
+        run: |
+          MEL_HOUR=$(TZ=Australia/Melbourne date +%H)
+          echo "Melbourne hour right now: $MEL_HOUR"
+          if [ "$MEL_HOUR" != "16" ]; then
+            echo "Not 4pm in Melbourne - skipping this scheduled trigger (the other one today will run instead)."
+            echo "SKIP=true" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/checkout@v4
+        if: env.SKIP != 'true'
 
       - uses: actions/setup-python@v5
+        if: env.SKIP != 'true'
         with:
           python-version: "3.12"
 
       - name: Install dependencies
+        if: env.SKIP != 'true'
         run: pip install -r requirements.txt
 
       - name: Fetch odds
+        if: env.SKIP != 'true'
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
         run: python scripts/fetch_odds.py
+
+      - name: Calculate edges
+        if: env.SKIP != 'true'
+        run: python scripts/calculate.py
+
+      - name: Commit updated data
+        if: env.SKIP != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/*.json docs/data.json
+          if git diff --cached --quiet; then
+            echo "No change to commit."
+          else
+            git commit -m "Update odds data ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git pull --rebase origin master
+            git push
+          fi

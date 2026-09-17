@@ -123,26 +123,35 @@ pipeline logged instead of silently dropping.
 
 ## Automation and hosting
 
-`.github/workflows/update-site.yml` runs the full pipeline (fetch odds →
-fetch probabilities → calculate edges) and commits the resulting
-`docs/data.json` back to the repo, which is what keeps the live site
-current. It only commits once every step has succeeded — a failure at any
-point leaves the previously committed `docs/data.json` untouched and
-fails the workflow run loudly.
+Odds and probabilities are fetched on independent schedules, since only
+odds cost API credits:
 
-It runs on `workflow_dispatch` (manual) and on a daily schedule aimed at
-~4pm Melbourne time. Melbourne's UTC offset changes with daylight saving
-(4pm AEST = 06:00 UTC; 4pm AEDT = 05:00 UTC), so rather than
-hand-maintain the exact transition date every year, the workflow fires at
-*both* possible UTC times daily and its first step checks the actual
-current Melbourne hour (via the `Australia/Melbourne` IANA zone, which
-already knows the real transition dates) — it skips the rest of the job
-unless it's genuinely 4pm there. Exactly one of the two daily triggers
-does the work, year-round, with no maintenance needed.
+- **`.github/workflows/fetch-odds.yml`** runs once a day (~4pm Melbourne
+  time), since it's the only workflow that spends Odds API credits.
+  Melbourne's UTC offset changes with daylight saving (4pm AEST = 06:00
+  UTC; 4pm AEDT = 05:00 UTC), so rather than hand-maintain the exact
+  transition date every year, it fires at *both* possible UTC times daily
+  and its first step checks the actual current Melbourne hour (via the
+  `Australia/Melbourne` IANA zone, which already knows the real
+  transition dates) — it skips the rest of the job unless it's genuinely
+  4pm there. Exactly one of the two daily triggers does the work,
+  year-round, with no maintenance needed.
+- **`.github/workflows/fetch-probabilities.yml`** runs every 3 hours
+  (8x/day), since scraping TeamRankings is free.
 
-`.github/workflows/fetch-odds.yml` and `.github/workflows/fetch-probabilities.yml`
-remain as standalone manual tools for debugging either half of the
-pipeline in isolation.
+Both workflows finish the same way: run `scripts/calculate.py` (which
+recombines whatever odds and probabilities are currently on disk — the
+freshest of each, from whichever workflow last fetched it — even though
+they can be up to a day apart in age) and commit the result. Each commits
+only its own raw data (`data/raw/*.json` for odds,
+`data/raw/probabilities/*.json` for probabilities) plus the shared
+`docs/data.json`, which is what keeps the live site current. A commit only
+happens once every step has succeeded — a failure at any point leaves the
+previously committed data untouched and fails the workflow run loudly. The
+site shows odds and model-probability freshness as two separate
+timestamps, since they can now differ.
+
+Both also accept `workflow_dispatch` for manual/debugging runs.
 
 **GitHub Pages setup (one-time, manual):** this repo's GitHub App
 permissions don't extend to changing repository settings, so enabling

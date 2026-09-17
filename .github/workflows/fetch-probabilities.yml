@@ -1,7 +1,17 @@
-name: Fetch probabilities
+name: Fetch probabilities and update site
 
+# Runs every 3 hours - TeamRankings scraping is free (unlike The Odds
+# API), so model probabilities can refresh much more often than odds.
+# Recalculates edges using whatever odds were most recently fetched by
+# fetch-odds.yml (which only runs once a day, since odds cost API
+# credits) and commits the result.
 on:
   workflow_dispatch: {}
+  schedule:
+    - cron: '0 */3 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
@@ -18,3 +28,19 @@ jobs:
 
       - name: Fetch probabilities
         run: python scripts/fetch_probabilities.py
+
+      - name: Calculate edges
+        run: python scripts/calculate.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw/probabilities/*.json docs/data.json
+          if git diff --cached --quiet; then
+            echo "No change to commit."
+          else
+            git commit -m "Update model probabilities ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git pull --rebase origin master
+            git push
+          fi

@@ -205,9 +205,19 @@ def main() -> None:
 
     all_teams.sort(key=lambda t: t["edge"], reverse=True)
 
+    # Odds and probabilities are now fetched on independent schedules (odds
+    # cost API credits so they refresh once a day; probabilities are a free
+    # scrape and can refresh more often), so this run's inputs can be from
+    # two different fetches. Surface when each was actually last fetched,
+    # not just when this calculation ran.
+    odds_meta = _load_json(RAW_ODDS_DIR / "_meta.json")
+    prob_meta = _load_json(RAW_PROB_DIR / "_meta.json")
+
     output = {
         "generated_at": now.isoformat(),
         "generated_at_melbourne": now.astimezone(MELBOURNE_TZ).isoformat(),
+        "odds_fetched_at": odds_meta.get("fetched_at"),
+        "probabilities_fetched_at": prob_meta.get("fetched_at"),
         "competitions": competition_meta,
         "teams": all_teams,
         "unmatched": unmatched,

@@ -85,8 +85,11 @@
   function init() {
     const data = state.data;
 
+    const oddsAt = data.odds_fetched_at ? fmtMelbourne(data.odds_fetched_at) : "unknown";
+    const probsAt = data.probabilities_fetched_at ? fmtMelbourne(data.probabilities_fetched_at) : "unknown";
     els.lastUpdated.innerHTML =
-      "Last updated " + escapeHtml(fmtMelbourne(data.generated_at)) + " (Melbourne time). Analysis only &mdash; not betting advice.";
+      "Odds fetched " + escapeHtml(oddsAt) + " &middot; model probabilities fetched " + escapeHtml(probsAt) +
+      " (Melbourne time). Analysis only &mdash; not betting advice.";
 
     populateSportOptions();
     populateCompetitionOptions();
