@@ -1,0 +1,127 @@
+{
+  "competition_name": "MLB World Series",
+  "teams": [
+    {
+      "team": "Tampa Bay",
+      "probability": 0.079
+    },
+    {
+      "team": "NY Yankees",
+      "probability": 0.12300000000000001
+    },
+    {
+      "team": "Boston",
+      "probability": 0.066
+    },
+    {
+      "team": "Toronto",
+      "probability": 0.013999999999999999
+    },
+    {
+      "team": "Baltimore",
+      "probability": 0.003
+    },
+    {
+      "team": "Cleveland",
+      "probability": 0.031
+    },
+    {
+      "team": "Chi Sox",
+      "probability": 0.024
+    },
+    {
+      "team": "Detroit",
+      "probability": 0.001
+    },
+    {
+      "team": "Minnesota",
+      "probability": 0.0
+    },
+    {
+      "team": "Kansas City",
+      "probability": 0.0
+    },
+    {
+      "team": "Houston",
+      "probability": 0.027999999999999997
+    },
+    {
+      "team": "Texas",
+      "probability": 0.021
+    },
+    {
+      "team": "Seattle",
+      "probability": 0.0
+    },
+    {
+      "team": "Sacramento",
+      "probability": 0.0
+    },
+    {
+      "team": "LA Angels",
+      "probability": 0.0
+    },
+    {
+      "team": "Atlanta",
+      "probability": 0.062
+    },
+    {
+      "team": "Philadelphia",
+      "probability": 0.037000000000000005
+    },
+    {
+      "team": "Miami",
+      "probability": 0.0
+    },
+    {
+      "team": "Washington",
+      "probability": 0.0
+    },
+    {
+      "team": "NY Mets",
+      "probability": 0.0
+    },
+    {
+      "team": "Milwaukee",
+      "probability": 0.158
+    },
+    {
+      "team": "Chi Cubs",
+      "probability": 0.07200000000000001
+    },
+    {
+      "team": "Pittsburgh",
+      "probability": 0.0
+    },
+    {
+      "team": "St. Louis",
+      "probability": 0.0
+    },
+    {
+      "team": "Cincinnati",
+      "probability": 0.0
+    },
+    {
+      "team": "LA Dodgers",
+      "probability": 0.255
+    },
+    {
+      "team": "San Diego",
+      "probability": 0.023
+    },
+    {
+      "team": "Arizona",
+      "probability": 0.002
+    },
+    {
+      "team": "SF Giants",
+      "probability": 0.0
+    },
+    {
+      "team": "Colorado",
+      "probability": 0.0
+    }
+  ],
+  "probability_sum": 0.999,
+  "suspect": false
+}

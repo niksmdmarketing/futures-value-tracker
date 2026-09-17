@@ -1,0 +1,11 @@
+{
+  "fetched_at": "2026-09-17T14:44:50.526363+00:00",
+  "competitions": [
+    "americanfootball_nfl_super_bowl_winner",
+    "basketball_nba_championship_winner",
+    "baseball_mlb_world_series_winner"
+  ],
+  "provider": "the-odds-api",
+  "last_requests_used": "34",
+  "last_requests_remaining": "466"
+}

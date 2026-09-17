@@ -1,0 +1,227 @@
+[
+  {
+    "id": "4ecb74b5e0474511c4af9764ff021bda",
+    "has_outrights": true,
+    "sport_key": "baseball_mlb_world_series_winner",
+    "sport_title": "MLB World Series Winner",
+    "commence_time": "2026-10-31T23:00:00Z",
+    "home_team": null,
+    "away_team": null,
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-09-17T14:42:00Z",
+        "markets": [
+          {
+            "key": "outrights",
+            "last_update": "2026-09-17T14:42:00Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Dodgers",
+                "price": 3.0
+              },
+              {
+                "name": "Milwaukee Brewers",
+                "price": 7.0
+              },
+              {
+                "name": "New York Yankees",
+                "price": 8.5
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": 9.5
+              },
+              {
+                "name": "Boston Red Sox",
+                "price": 14.0
+              },
+              {
+                "name": "Atlanta Braves",
+                "price": 14.0
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": 16.0
+              },
+              {
+                "name": "Philadelphia Phillies",
+                "price": 16.0
+              },
+              {
+                "name": "Cleveland Guardians",
+                "price": 19.0
+              },
+              {
+                "name": "Houston Astros",
+                "price": 21.0
+              },
+              {
+                "name": "Chicago White Sox",
+                "price": 26.0
+              },
+              {
+                "name": "San Diego Padres",
+                "price": 36.0
+              },
+              {
+                "name": "Texas Rangers",
+                "price": 41.0
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": 51.0
+              },
+              {
+                "name": "Arizona Diamondbacks",
+                "price": 101.0
+              },
+              {
+                "name": "Baltimore Orioles",
+                "price": 501.0
+              },
+              {
+                "name": "Cincinnati Reds",
+                "price": 501.0
+              },
+              {
+                "name": "Detroit Tigers",
+                "price": 501.0
+              },
+              {
+                "name": "Kansas City Royals",
+                "price": 501.0
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 501.0
+              },
+              {
+                "name": "Minnesota Twins",
+                "price": 501.0
+              },
+              {
+                "name": "New York Mets",
+                "price": 501.0
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 501.0
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": 501.0
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": 501.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2026-09-17T14:41:37Z",
+        "markets": [
+          {
+            "key": "outrights",
+            "last_update": "2026-09-17T14:41:37Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Dodgers",
+                "price": 3.1
+              },
+              {
+                "name": "Milwaukee Brewers",
+                "price": 6.5
+              },
+              {
+                "name": "New York Yankees",
+                "price": 8.0
+              },
+              {
+                "name": "Tampa Bay Rays",
+                "price": 8.0
+              },
+              {
+                "name": "Atlanta Braves",
+                "price": 13.0
+              },
+              {
+                "name": "Boston Red Sox",
+                "price": 13.0
+              },
+              {
+                "name": "Chicago Cubs",
+                "price": 13.0
+              },
+              {
+                "name": "Philadelphia Phillies",
+                "price": 14.0
+              },
+              {
+                "name": "Cleveland Guardians",
+                "price": 15.0
+              },
+              {
+                "name": "Houston Astros",
+                "price": 21.0
+              },
+              {
+                "name": "Chicago White Sox",
+                "price": 23.0
+              },
+              {
+                "name": "San Diego Padres",
+                "price": 26.0
+              },
+              {
+                "name": "Texas Rangers",
+                "price": 26.0
+              },
+              {
+                "name": "Toronto Blue Jays",
+                "price": 71.0
+              },
+              {
+                "name": "Arizona Diamondbacks",
+                "price": 201.0
+              },
+              {
+                "name": "Baltimore Orioles",
+                "price": 501.0
+              },
+              {
+                "name": "Detroit Tigers",
+                "price": 501.0
+              },
+              {
+                "name": "Miami Marlins",
+                "price": 501.0
+              },
+              {
+                "name": "Minnesota Twins",
+                "price": 501.0
+              },
+              {
+                "name": "Pittsburgh Pirates",
+                "price": 501.0
+              },
+              {
+                "name": "Seattle Mariners",
+                "price": 501.0
+              },
+              {
+                "name": "St. Louis Cardinals",
+                "price": 501.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

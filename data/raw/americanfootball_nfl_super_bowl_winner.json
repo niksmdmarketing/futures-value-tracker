@@ -1,0 +1,436 @@
+[
+  {
+    "id": "270f600435a20d2046a59fc89fe8e9b8",
+    "has_outrights": true,
+    "sport_key": "americanfootball_nfl_super_bowl_winner",
+    "sport_title": "NFL Super Bowl Winner",
+    "commence_time": "2027-02-14T23:35:00Z",
+    "home_team": null,
+    "away_team": null,
+    "bookmakers": [
+      {
+        "key": "unibet",
+        "title": "Unibet",
+        "last_update": "2026-09-17T14:44:38Z",
+        "markets": [
+          {
+            "key": "outrights",
+            "last_update": "2026-09-17T14:44:38Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 7.5
+              },
+              {
+                "name": "Buffalo Bills",
+                "price": 10.0
+              },
+              {
+                "name": "Baltimore Ravens",
+                "price": 11.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 13.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 14.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 16.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 18.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 19.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 19.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 19.0
+              },
+              {
+                "name": "Chicago Bears",
+                "price": 21.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 21.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 21.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 23.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 23.0
+              },
+              {
+                "name": "Dallas Cowboys",
+                "price": 26.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 26.0
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 46.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 51.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 51.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 61.0
+              },
+              {
+                "name": "Indianapolis Colts",
+                "price": 67.0
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 76.0
+              },
+              {
+                "name": "Atlanta Falcons",
+                "price": 101.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 101.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 101.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 151.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 201.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 251.0
+              },
+              {
+                "name": "Arizona Cardinals",
+                "price": 501.0
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 501.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 501.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "tab",
+        "title": "TAB",
+        "last_update": "2026-09-17T14:42:25Z",
+        "markets": [
+          {
+            "key": "outrights",
+            "last_update": "2026-09-17T14:42:25Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 7.0
+              },
+              {
+                "name": "Buffalo Bills",
+                "price": 10.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 11.0
+              },
+              {
+                "name": "Baltimore Ravens",
+                "price": 11.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 11.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 13.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 17.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 17.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 19.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 21.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 21.0
+              },
+              {
+                "name": "Chicago Bears",
+                "price": 21.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 21.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 21.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 23.0
+              },
+              {
+                "name": "Dallas Cowboys",
+                "price": 23.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 26.0
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 41.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 51.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 51.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 51.0
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 61.0
+              },
+              {
+                "name": "Indianapolis Colts",
+                "price": 61.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 81.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 81.0
+              },
+              {
+                "name": "Atlanta Falcons",
+                "price": 101.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 126.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 151.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 201.0
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 201.0
+              },
+              {
+                "name": "Arizona Cardinals",
+                "price": 201.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 501.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "sportsbet",
+        "title": "SportsBet",
+        "last_update": "2026-09-17T14:43:07Z",
+        "markets": [
+          {
+            "key": "outrights",
+            "last_update": "2026-09-17T14:43:07Z",
+            "outcomes": [
+              {
+                "name": "Los Angeles Rams",
+                "price": 7.0
+              },
+              {
+                "name": "Buffalo Bills",
+                "price": 10.0
+              },
+              {
+                "name": "Baltimore Ravens",
+                "price": 11.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 12.0
+              },
+              {
+                "name": "Kansas City Chiefs",
+                "price": 14.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 14.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 15.0
+              },
+              {
+                "name": "Detroit Lions",
+                "price": 18.0
+              },
+              {
+                "name": "Cincinnati Bengals",
+                "price": 19.0
+              },
+              {
+                "name": "Houston Texans",
+                "price": 20.0
+              },
+              {
+                "name": "Chicago Bears",
+                "price": 21.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 21.0
+              },
+              {
+                "name": "New England Patriots",
+                "price": 21.0
+              },
+              {
+                "name": "Dallas Cowboys",
+                "price": 23.0
+              },
+              {
+                "name": "Denver Broncos",
+                "price": 23.0
+              },
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 23.0
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 26.0
+              },
+              {
+                "name": "Minnesota Vikings",
+                "price": 36.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 41.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 51.0
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 56.0
+              },
+              {
+                "name": "Indianapolis Colts",
+                "price": 61.0
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 71.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 81.0
+              },
+              {
+                "name": "Atlanta Falcons",
+                "price": 101.0
+              },
+              {
+                "name": "Carolina Panthers",
+                "price": 101.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 126.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 176.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 226.0
+              },
+              {
+                "name": "Arizona Cardinals",
+                "price": 326.0
+              },
+              {
+                "name": "Cleveland Browns",
+                "price": 401.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 401.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
