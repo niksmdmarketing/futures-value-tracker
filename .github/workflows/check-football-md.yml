@@ -16,5 +16,13 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Check football-md.com
+      - name: Check football-md.com (plain HTTP)
         run: python scripts/diagnostics/check_football_md.py
+
+      - name: Install Playwright
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Check football-md.com (rendered)
+        run: python scripts/diagnostics/check_football_md_rendered.py
