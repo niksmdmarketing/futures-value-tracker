@@ -1,10 +1,10 @@
-name: Check TeamRankings (diagnostic)
+name: Fetch probabilities
 
 on:
   workflow_dispatch: {}
 
 jobs:
-  check:
+  fetch:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,5 +16,5 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Check TeamRankings pages
-        run: python scripts/diagnostics/check_teamrankings.py
+      - name: Fetch probabilities
+        run: python scripts/fetch_probabilities.py

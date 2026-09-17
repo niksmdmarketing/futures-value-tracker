@@ -37,7 +37,8 @@ def main() -> None:
     by_key = {s["key"]: s for s in sports}
 
     to_fetch = []
-    for sport_key in COMPETITIONS:
+    for competition in COMPETITIONS:
+        sport_key = competition["key"]
         info = by_key.get(sport_key)
         if info is None:
             logger.warning("Competition %s not found in sports list, skipping", sport_key)
