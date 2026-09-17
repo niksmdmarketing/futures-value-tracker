@@ -26,6 +26,3 @@ jobs:
 
       - name: Calculate edges
         run: python scripts/calculate.py
-
-      - name: Print resulting data.json
-        run: cat docs/data.json

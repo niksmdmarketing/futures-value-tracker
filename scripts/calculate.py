@@ -114,9 +114,20 @@ def main() -> None:
                 prob_sum * 100,
             )
 
+        zero_probability_count = 0
         for team_prob in prob_payload["teams"]:
             model_team = team_prob["team"]
             probability = team_prob["probability"]
+
+            if probability <= 0:
+                # TeamRankings rounds to 1 decimal place, so this means "some
+                # negligible probability under 0.05%", not literally zero.
+                # Fair odds would be near-infinite and edge trivially -100%
+                # regardless of price, so these just add noise to the
+                # ranking - skip them (not logged as unmatched, since this
+                # isn't a name-matching problem).
+                zero_probability_count += 1
+                continue
 
             odds_team = map_team_name(sport_key, model_team)
             if odds_team is None:
@@ -159,6 +170,13 @@ def main() -> None:
                 }
             )
 
+        if zero_probability_count:
+            logger.info(
+                "%s: skipped %d team(s) with a negligible (<0.05%%) model probability",
+                sport_key,
+                zero_probability_count,
+            )
+
         competition_meta.append(
             {
                 "key": sport_key,
@@ -193,6 +211,17 @@ def main() -> None:
         len(unmatched),
         all_teams[0]["edge"] * 100,
     )
+    logger.info("Top 10 edges:")
+    for t in all_teams[:10]:
+        logger.info(
+            "  %+7.1f%%  %-22s %-28s model=%.2f%% best=%.2f (%s)",
+            t["edge"] * 100,
+            t["competition_name"],
+            t["team"],
+            t["model_probability"] * 100,
+            t["best_price"],
+            t["best_bookmaker"],
+        )
 
 
 if __name__ == "__main__":
