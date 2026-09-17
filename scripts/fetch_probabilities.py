@@ -32,6 +32,7 @@ PROVIDERS = {
 }
 
 SUM_TOLERANCE = 0.05  # flag if a competition's probabilities sum outside 95-105%
+DOMINANT_TEAM_THRESHOLD = 0.5  # flag if one team alone exceeds this share
 
 
 def main() -> None:
@@ -57,10 +58,31 @@ def main() -> None:
                 total * 100,
             )
 
+        # A sum that adds up to ~100% can still hide bad source data: e.g.
+        # one team showing 100% and everyone else 0%, which happens on
+        # TeamRankings pages before a season's title odds are really
+        # computed. No real multi-team title race has one team this far
+        # ahead of the field, so flag it as suspect for calculate.py to
+        # skip rather than publish a nonsense edge.
+        suspect = False
+        if len(teams) > 5:
+            favourite = max(teams, key=lambda t: t["probability"])
+            if favourite["probability"] > DOMINANT_TEAM_THRESHOLD:
+                suspect = True
+                logger.error(
+                    "  '%s' at %.1f%% dominates %s (%d teams) - implausible this far out, "
+                    "flagging as suspect",
+                    favourite["team"],
+                    favourite["probability"] * 100,
+                    sport_key,
+                    len(teams),
+                )
+
         results[sport_key] = {
             "competition_name": competition["name"],
             "teams": teams,
             "probability_sum": total,
+            "suspect": suspect,
         }
 
     # Every fetch succeeded - now, and only now, write to disk.

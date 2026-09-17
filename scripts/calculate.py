@@ -101,6 +101,13 @@ def main() -> None:
         odds_payload = _load_json(RAW_ODDS_DIR / f"{sport_key}.json")
         prob_payload = _load_json(RAW_PROB_DIR / f"{sport_key}.json")
 
+        if prob_payload.get("suspect"):
+            logger.warning(
+                "%s: probabilities flagged suspect by fetch_probabilities.py - excluding from output",
+                sport_key,
+            )
+            continue
+
         prices_by_team, last_update_by_bm, overround_by_bm = _index_odds(odds_payload)
 
         commence_time = odds_payload[0].get("commence_time") if odds_payload else None
