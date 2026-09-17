@@ -1,10 +1,10 @@
-name: Inspect odds shape (diagnostic)
+name: Dump team names (diagnostic)
 
 on:
   workflow_dispatch: {}
 
 jobs:
-  inspect:
+  dump:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -16,7 +16,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Inspect odds shape
+      - name: Dump team names
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python scripts/diagnostics/inspect_odds_shape.py
+        run: python scripts/diagnostics/dump_team_names.py
