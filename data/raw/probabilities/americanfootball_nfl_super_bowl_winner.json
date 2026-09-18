@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.09699999999999999
+      "probability": 0.109
     },
     {
       "team": "New England",
-      "probability": 0.039
+      "probability": 0.036000000000000004
     },
     {
       "team": "NY Jets",
@@ -19,7 +19,7 @@
     },
     {
       "team": "Baltimore",
-      "probability": 0.113
+      "probability": 0.106
     },
     {
       "team": "Cincinnati",
@@ -35,15 +35,15 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.04
+      "probability": 0.038
     },
     {
       "team": "Houston",
-      "probability": 0.043
+      "probability": 0.044000000000000004
     },
     {
       "team": "Indianapolis",
-      "probability": 0.004
+      "probability": 0.005
     },
     {
       "team": "Tennessee",
@@ -51,15 +51,15 @@
     },
     {
       "team": "Kansas City",
-      "probability": 0.083
+      "probability": 0.087
     },
     {
       "team": "Denver",
-      "probability": 0.021
+      "probability": 0.019
     },
     {
       "team": "LA Chargers",
-      "probability": 0.017
+      "probability": 0.016
     },
     {
       "team": "Las Vegas",
@@ -67,7 +67,7 @@
     },
     {
       "team": "Philadelphia",
-      "probability": 0.047
+      "probability": 0.045
     },
     {
       "team": "NY Giants",
@@ -75,19 +75,19 @@
     },
     {
       "team": "Dallas",
-      "probability": 0.015
+      "probability": 0.013999999999999999
     },
     {
       "team": "Washington",
-      "probability": 0.01
-    },
-    {
-      "team": "Detroit",
-      "probability": 0.045
+      "probability": 0.011000000000000001
     },
     {
       "team": "Chicago",
-      "probability": 0.049
+      "probability": 0.055999999999999994
+    },
+    {
+      "team": "Detroit",
+      "probability": 0.034
     },
     {
       "team": "Minnesota",
@@ -95,11 +95,11 @@
     },
     {
       "team": "Green Bay",
-      "probability": 0.019
+      "probability": 0.02
     },
     {
       "team": "Tampa Bay",
-      "probability": 0.015
+      "probability": 0.016
     },
     {
       "team": "New Orleans",
@@ -115,21 +115,21 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.095
+      "probability": 0.092
     },
     {
       "team": "Seattle",
-      "probability": 0.076
+      "probability": 0.079
     },
     {
       "team": "LA Rams",
-      "probability": 0.063
+      "probability": 0.066
     },
     {
       "team": "Arizona",
       "probability": 0.001
     }
   ],
-  "probability_sum": 0.997,
+  "probability_sum": 0.999,
   "suspect": false
 }
