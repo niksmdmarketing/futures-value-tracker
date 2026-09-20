@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.079
+      "probability": 0.08199999999999999
     },
     {
       "team": "NY Yankees",
-      "probability": 0.128
+      "probability": 0.124
     },
     {
       "team": "Boston",
@@ -15,19 +15,19 @@
     },
     {
       "team": "Toronto",
-      "probability": 0.006999999999999999
-    },
-    {
-      "team": "Baltimore",
       "probability": 0.002
     },
     {
+      "team": "Baltimore",
+      "probability": 0.0
+    },
+    {
       "team": "Cleveland",
-      "probability": 0.037000000000000005
+      "probability": 0.039
     },
     {
       "team": "Chi Sox",
-      "probability": 0.024
+      "probability": 0.028999999999999998
     },
     {
       "team": "Detroit",
@@ -43,11 +43,11 @@
     },
     {
       "team": "Texas",
-      "probability": 0.021
+      "probability": 0.027000000000000003
     },
     {
       "team": "Houston",
-      "probability": 0.026000000000000002
+      "probability": 0.017
     },
     {
       "team": "Seattle",
@@ -63,11 +63,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.06
+      "probability": 0.062
     },
     {
       "team": "Philadelphia",
-      "probability": 0.037000000000000005
+      "probability": 0.036000000000000004
     },
     {
       "team": "Miami",
@@ -87,7 +87,7 @@
     },
     {
       "team": "Chi Cubs",
-      "probability": 0.068
+      "probability": 0.07
     },
     {
       "team": "Pittsburgh",
@@ -107,7 +107,7 @@
     },
     {
       "team": "San Diego",
-      "probability": 0.027000000000000003
+      "probability": 0.026000000000000002
     },
     {
       "team": "Arizona",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0,
+  "probability_sum": 0.998,
   "suspect": false
 }
