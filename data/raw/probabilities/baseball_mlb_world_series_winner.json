@@ -47,7 +47,7 @@
     },
     {
       "team": "Houston",
-      "probability": 0.013999999999999999
+      "probability": 0.015
     },
     {
       "team": "Seattle",
@@ -87,7 +87,7 @@
     },
     {
       "team": "Chi Cubs",
-      "probability": 0.07200000000000001
+      "probability": 0.073
     },
     {
       "team": "Pittsburgh",
@@ -103,7 +103,7 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.266
+      "probability": 0.267
     },
     {
       "team": "San Diego",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0,
+  "probability_sum": 1.003,
   "suspect": false
 }
