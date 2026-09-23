@@ -3,19 +3,19 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.086
+      "probability": 0.08900000000000001
     },
     {
       "team": "NY Yankees",
-      "probability": 0.11599999999999999
+      "probability": 0.111
     },
     {
       "team": "Boston",
-      "probability": 0.065
+      "probability": 0.064
     },
     {
       "team": "Toronto",
-      "probability": 0.001
+      "probability": 0.0
     },
     {
       "team": "Baltimore",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Cleveland",
-      "probability": 0.043
+      "probability": 0.044000000000000004
     },
     {
       "team": "Chi Sox",
-      "probability": 0.033
+      "probability": 0.034
     },
     {
       "team": "Detroit",
@@ -42,12 +42,12 @@
       "probability": 0.0
     },
     {
-      "team": "Texas",
+      "team": "Houston",
       "probability": 0.023
     },
     {
-      "team": "Houston",
-      "probability": 0.015
+      "team": "Texas",
+      "probability": 0.013000000000000001
     },
     {
       "team": "Seattle",
@@ -63,11 +63,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.061
+      "probability": 0.059000000000000004
     },
     {
       "team": "Philadelphia",
-      "probability": 0.035
+      "probability": 0.038
     },
     {
       "team": "Miami",
@@ -83,11 +83,11 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.156
+      "probability": 0.155
     },
     {
       "team": "Chi Cubs",
-      "probability": 0.073
+      "probability": 0.068
     },
     {
       "team": "Pittsburgh",
@@ -103,11 +103,11 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.267
+      "probability": 0.27399999999999997
     },
     {
       "team": "San Diego",
-      "probability": 0.027999999999999997
+      "probability": 0.026000000000000002
     },
     {
       "team": "Arizona",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.003,
+  "probability_sum": 0.999,
   "suspect": false
 }
