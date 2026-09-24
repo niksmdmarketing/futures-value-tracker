@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.08900000000000001
+      "probability": 0.09
     },
     {
       "team": "NY Yankees",
@@ -11,30 +11,30 @@
     },
     {
       "team": "Boston",
-      "probability": 0.064
-    },
-    {
-      "team": "Toronto",
-      "probability": 0.0
+      "probability": 0.065
     },
     {
       "team": "Baltimore",
       "probability": 0.0
     },
     {
+      "team": "Toronto",
+      "probability": 0.0
+    },
+    {
       "team": "Cleveland",
-      "probability": 0.044000000000000004
+      "probability": 0.045
     },
     {
       "team": "Chi Sox",
       "probability": 0.034
     },
     {
-      "team": "Detroit",
+      "team": "Minnesota",
       "probability": 0.0
     },
     {
-      "team": "Minnesota",
+      "team": "Detroit",
       "probability": 0.0
     },
     {
@@ -43,11 +43,11 @@
     },
     {
       "team": "Houston",
-      "probability": 0.023
+      "probability": 0.027000000000000003
     },
     {
       "team": "Texas",
-      "probability": 0.013000000000000001
+      "probability": 0.008
     },
     {
       "team": "Seattle",
@@ -63,7 +63,7 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.059000000000000004
+      "probability": 0.057999999999999996
     },
     {
       "team": "Philadelphia",
@@ -83,11 +83,11 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.155
+      "probability": 0.156
     },
     {
       "team": "Chi Cubs",
-      "probability": 0.068
+      "probability": 0.067
     },
     {
       "team": "Pittsburgh",
@@ -103,11 +103,11 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.27399999999999997
+      "probability": 0.273
     },
     {
       "team": "San Diego",
-      "probability": 0.026000000000000002
+      "probability": 0.027000000000000003
     },
     {
       "team": "Arizona",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.999,
+  "probability_sum": 1.0,
   "suspect": false
 }
