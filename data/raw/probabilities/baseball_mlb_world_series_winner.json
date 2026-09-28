@@ -3,15 +3,15 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.09
+      "probability": 0.08900000000000001
     },
     {
       "team": "NY Yankees",
-      "probability": 0.111
+      "probability": 0.11
     },
     {
       "team": "Boston",
-      "probability": 0.064
+      "probability": 0.062
     },
     {
       "team": "Baltimore",
@@ -23,18 +23,18 @@
     },
     {
       "team": "Cleveland",
-      "probability": 0.064
+      "probability": 0.063
     },
     {
       "team": "Chi Sox",
       "probability": 0.021
     },
     {
-      "team": "Detroit",
+      "team": "Minnesota",
       "probability": 0.0
     },
     {
-      "team": "Minnesota",
+      "team": "Detroit",
       "probability": 0.0
     },
     {
@@ -43,11 +43,11 @@
     },
     {
       "team": "Houston",
-      "probability": 0.027000000000000003
+      "probability": 0.037000000000000005
     },
     {
       "team": "Texas",
-      "probability": 0.008
+      "probability": 0.0
     },
     {
       "team": "Seattle",
@@ -63,11 +63,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.059000000000000004
+      "probability": 0.055999999999999994
     },
     {
       "team": "Philadelphia",
-      "probability": 0.025
+      "probability": 0.032
     },
     {
       "team": "Miami",
@@ -83,11 +83,11 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.163
+      "probability": 0.162
     },
     {
       "team": "Chi Cubs",
-      "probability": 0.065
+      "probability": 0.066
     },
     {
       "team": "Pittsburgh",
@@ -103,7 +103,7 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.26899999999999996
+      "probability": 0.27
     },
     {
       "team": "San Diego",
@@ -111,7 +111,7 @@
     },
     {
       "team": "Arizona",
-      "probability": 0.004
+      "probability": 0.0
     },
     {
       "team": "SF Giants",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.002,
+  "probability_sum": 1.0,
   "suspect": false
 }
