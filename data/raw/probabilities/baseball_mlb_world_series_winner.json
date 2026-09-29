@@ -23,7 +23,7 @@
     },
     {
       "team": "Cleveland",
-      "probability": 0.062
+      "probability": 0.063
     },
     {
       "team": "Chi Sox",
@@ -63,7 +63,7 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.057
+      "probability": 0.055999999999999994
     },
     {
       "team": "Philadelphia",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.163
+      "probability": 0.162
     },
     {
       "team": "Chi Cubs",
@@ -103,7 +103,7 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.26899999999999996
+      "probability": 0.27
     },
     {
       "team": "San Diego",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.001,
+  "probability_sum": 1.0010000000000001,
   "suspect": false
 }
