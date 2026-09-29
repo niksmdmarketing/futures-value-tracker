@@ -7,11 +7,11 @@
     },
     {
       "team": "NY Yankees",
-      "probability": 0.111
+      "probability": 0.11
     },
     {
       "team": "Boston",
-      "probability": 0.062
+      "probability": 0.063
     },
     {
       "team": "Baltimore",
@@ -23,7 +23,7 @@
     },
     {
       "team": "Cleveland",
-      "probability": 0.063
+      "probability": 0.062
     },
     {
       "team": "Chi Sox",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.162
+      "probability": 0.163
     },
     {
       "team": "Chi Cubs",
