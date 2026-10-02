@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T20:14:01.909437+00:00",
-  "generated_at_melbourne": "2026-10-02T06:14:01.909437+10:00",
+  "generated_at": "2026-10-02T00:37:00.533466+00:00",
+  "generated_at_melbourne": "2026-10-02T10:37:00.533466+10:00",
   "odds_fetched_at": "2026-09-17T14:44:50.526363+00:00",
-  "probabilities_fetched_at": "2026-10-01T20:14:01.801634+00:00",
+  "probabilities_fetched_at": "2026-10-02T00:37:00.417514+00:00",
   "competitions": [
     {
       "key": "americanfootball_nfl_super_bowl_winner",
       "name": "NFL Super Bowl",
       "commence_time": "2027-02-14T23:35:00Z",
-      "days_to_event": 136.13956123336806,
+      "days_to_event": 135.95693827006943,
       "bookmaker_overround": {
         "unibet": 1.211985332643044,
         "tab": 1.308372840869264,
@@ -25,7 +25,7 @@
       "key": "baseball_mlb_world_series_winner",
       "name": "MLB World Series",
       "commence_time": "2026-10-31T23:00:00Z",
-      "days_to_event": 30.115255677812502,
+      "days_to_event": 29.932632714513886,
       "bookmaker_overround": {
         "unibet": 1.2073069355506412,
         "sportsbet": 1.2963433405921898
@@ -52,7 +52,7 @@
       "best_price": 151.0,
       "best_bookmaker": "unibet",
       "edge": 1.7180000000000004,
-      "annualised_edge": 13.596682353266061
+      "annualised_edge": 13.649339075859553
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -68,7 +68,7 @@
       "best_price": 36.0,
       "best_bookmaker": "unibet",
       "edge": 1.484,
-      "annualised_edge": 61556.07575267845
+      "annualised_edge": 65840.23993313346
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -84,7 +84,7 @@
       "best_price": 46.0,
       "best_bookmaker": "unibet",
       "edge": 1.4379999999999997,
-      "annualised_edge": 9.905995572329049
+      "annualised_edge": 9.941053756676798
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -100,7 +100,7 @@
       "best_price": 23.0,
       "best_bookmaker": "unibet",
       "edge": 0.7709999999999999,
-      "annualised_edge": 3.6290502667005073
+      "annualised_edge": 3.638588136765656
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -116,7 +116,7 @@
       "best_price": 8.5,
       "best_bookmaker": "unibet",
       "edge": 0.734,
-      "annualised_edge": 788.4045503585281
+      "annualised_edge": 821.1980356654559
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -132,7 +132,7 @@
       "best_price": 16.0,
       "best_bookmaker": "unibet",
       "edge": 0.5680000000000001,
-      "annualised_edge": 2.339926399380825
+      "annualised_edge": 2.34534106404365
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -148,7 +148,7 @@
       "best_price": 21.0,
       "best_bookmaker": "unibet",
       "edge": 0.365,
-      "annualised_edge": 1.3030342776833255
+      "annualised_edge": 1.305616432439812
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -164,7 +164,7 @@
       "best_price": 101.0,
       "best_bookmaker": "unibet",
       "edge": 0.31300000000000017,
-      "annualised_edge": 1.0752779681902234
+      "annualised_edge": 1.0773141787925011
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -180,7 +180,7 @@
       "best_price": 14.0,
       "best_bookmaker": "unibet",
       "edge": 0.2320000000000002,
-      "annualised_edge": 0.7495801973068985
+      "annualised_edge": 0.75089528515095
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -196,7 +196,7 @@
       "best_price": 26.0,
       "best_bookmaker": "unibet",
       "edge": 0.22199999999999998,
-      "annualised_edge": 10.35826460598323
+      "annualised_edge": 10.527910082903919
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -212,7 +212,7 @@
       "best_price": 19.0,
       "best_bookmaker": "unibet",
       "edge": 0.19700000000000006,
-      "annualised_edge": 7.841157856357098
+      "annualised_edge": 7.959503071906957
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -228,7 +228,7 @@
       "best_price": 7.0,
       "best_bookmaker": "unibet",
       "edge": 0.18299999999999983,
-      "annualised_edge": 6.666243697465527
+      "annualised_edge": 6.762106131763009
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -244,7 +244,7 @@
       "best_price": 13.0,
       "best_bookmaker": "unibet",
       "edge": 0.16999999999999993,
-      "annualised_edge": 0.52339042608777
+      "annualised_edge": 0.5242520278079246
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -260,7 +260,7 @@
       "best_price": 10.0,
       "best_bookmaker": "unibet",
       "edge": 0.14000000000000012,
-      "annualised_edge": 0.420908191344856
+      "annualised_edge": 0.4215788414512507
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -276,7 +276,7 @@
       "best_price": 19.0,
       "best_bookmaker": "unibet",
       "edge": -0.126,
-      "annualised_edge": -0.30307198112286604
+      "annualised_edge": -0.30340991506230386
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -292,7 +292,7 @@
       "best_price": 3.1,
       "best_bookmaker": "sportsbet",
       "edge": -0.15369999999999995,
-      "annualised_edge": -0.8676915602431681
+      "annualised_edge": -0.8693142492321521
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -308,7 +308,7 @@
       "best_price": 9.5,
       "best_bookmaker": "unibet",
       "edge": -0.1735000000000001,
-      "annualised_edge": -0.9006941310959928
+      "annualised_edge": -0.9020836250641396
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -324,7 +324,7 @@
       "best_price": 101.0,
       "best_bookmaker": "unibet",
       "edge": -0.19199999999999995,
-      "annualised_edge": -0.4353710152299347
+      "annualised_edge": -0.4358043588189183
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -340,7 +340,7 @@
       "best_price": 11.0,
       "best_bookmaker": "unibet",
       "edge": -0.20799999999999996,
-      "annualised_edge": -0.46485078272668834
+      "annualised_edge": -0.4653000163302756
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -356,7 +356,7 @@
       "best_price": 23.0,
       "best_bookmaker": "sportsbet",
       "edge": -0.21799999999999997,
-      "annualised_edge": -0.48277490393182787
+      "annualised_edge": -0.4832327392710076
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -372,7 +372,7 @@
       "best_price": 14.0,
       "best_bookmaker": "unibet",
       "edge": -0.22999999999999998,
-      "annualised_edge": -0.9579025392955808
+      "annualised_edge": -0.9587083437748887
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -388,7 +388,7 @@
       "best_price": 21.0,
       "best_bookmaker": "tab",
       "edge": -0.30699999999999994,
-      "annualised_edge": -0.625894326382547
+      "annualised_edge": -0.6263880807118591
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -404,7 +404,7 @@
       "best_price": 26.0,
       "best_bookmaker": "unibet",
       "edge": -0.42799999999999994,
-      "annualised_edge": -0.776353953875939
+      "annualised_edge": -0.7768034237328432
     },
     {
       "competition_key": "baseball_mlb_world_series_winner",
@@ -420,7 +420,7 @@
       "best_price": 16.0,
       "best_bookmaker": "unibet",
       "edge": -0.45599999999999996,
-      "annualised_edge": -0.9993756452256466
+      "annualised_edge": -0.9994031297412593
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -436,7 +436,7 @@
       "best_price": 76.0,
       "best_bookmaker": "unibet",
       "edge": -0.4680000000000001,
-      "annualised_edge": -0.8158595149542829
+      "annualised_edge": -0.816277561516314
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -452,7 +452,7 @@
       "best_price": 501.0,
       "best_bookmaker": "unibet",
       "edge": -0.499,
-      "annualised_edge": -0.8432371119979294
+      "annualised_edge": -0.8436268180945865
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -468,7 +468,7 @@
       "best_price": 61.0,
       "best_bookmaker": "unibet",
       "edge": -0.512,
-      "annualised_edge": -0.8539064539683935
+      "annualised_edge": -0.8542834338187655
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -484,7 +484,7 @@
       "best_price": 7.5,
       "best_bookmaker": "unibet",
       "edge": -0.52,
-      "annualised_edge": -0.8602394096321959
+      "annualised_edge": -0.8606083457931417
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -500,7 +500,7 @@
       "best_price": 21.0,
       "best_bookmaker": "unibet",
       "edge": -0.538,
-      "annualised_edge": -0.8738518440774556
+      "annualised_edge": -0.8742021634047027
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -516,7 +516,7 @@
       "best_price": 18.0,
       "best_bookmaker": "unibet",
       "edge": -0.5680000000000001,
-      "annualised_edge": -0.8946327638830908
+      "annualised_edge": -0.89495077660673
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -532,7 +532,7 @@
       "best_price": 67.0,
       "best_bookmaker": "unibet",
       "edge": -0.598,
-      "annualised_edge": -0.9131236726784767
+      "annualised_edge": -0.9134083247904987
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -548,7 +548,7 @@
       "best_price": 51.0,
       "best_bookmaker": "unibet",
       "edge": -0.643,
-      "annualised_edge": -0.936806680833031
+      "annualised_edge": -0.9370406582245838
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -564,7 +564,7 @@
       "best_price": 51.0,
       "best_bookmaker": "unibet",
       "edge": -0.745,
-      "annualised_edge": -0.9743615748370781
+      "annualised_edge": -0.9744874362777454
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -580,7 +580,7 @@
       "best_price": 20.0,
       "best_bookmaker": "sportsbet",
       "edge": -0.76,
-      "annualised_edge": -0.9782077758078502
+      "annualised_edge": -0.9783194898886124
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -596,7 +596,7 @@
       "best_price": 101.0,
       "best_bookmaker": "unibet",
       "edge": -0.798,
-      "annualised_edge": -0.9862723299608344
+      "annualised_edge": -0.9863511778377938
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -612,7 +612,7 @@
       "best_price": 201.0,
       "best_bookmaker": "unibet",
       "edge": -0.7989999999999999,
-      "annualised_edge": -0.9864537750091148
+      "annualised_edge": -0.9865318214306031
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -628,7 +628,7 @@
       "best_price": 26.0,
       "best_bookmaker": "unibet",
       "edge": -0.896,
-      "annualised_edge": -0.9976847634947951
+      "annualised_edge": -0.9977035585487225
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -644,7 +644,7 @@
       "best_price": 23.0,
       "best_bookmaker": "unibet",
       "edge": -0.908,
-      "annualised_edge": -0.9983333657715892
+      "annualised_edge": -0.9983476252181412
     }
   ],
   "unmatched": [
