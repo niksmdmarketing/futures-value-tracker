@@ -27,7 +27,7 @@
     },
     {
       "team": "Chi Sox",
-      "probability": 0.067
+      "probability": 0.068
     },
     {
       "team": "Minnesota",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.20800000000000002
+      "probability": 0.209
     },
     {
       "team": "Chi Cubs",
@@ -103,7 +103,7 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.32799999999999996
+      "probability": 0.327
     },
     {
       "team": "San Diego",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.999,
+  "probability_sum": 1.0,
   "suspect": false
 }
