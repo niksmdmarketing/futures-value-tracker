@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.193
+      "probability": 0.191
     },
     {
       "team": "NY Yankees",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Cleveland",
-      "probability": 0.033
+      "probability": 0.067
     },
     {
       "team": "Chi Sox",
-      "probability": 0.076
+      "probability": 0.047
     },
     {
       "team": "Minnesota",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.272
+      "probability": 0.271
     },
     {
       "team": "Chi Cubs",
@@ -103,7 +103,7 @@
     },
     {
       "team": "LA Dodgers",
-      "probability": 0.426
+      "probability": 0.424
     },
     {
       "team": "San Diego",
