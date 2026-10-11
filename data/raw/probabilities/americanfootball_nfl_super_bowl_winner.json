@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.07400000000000001
+      "probability": 0.077
     },
     {
       "team": "New England",
-      "probability": 0.034
+      "probability": 0.035
     },
     {
       "team": "NY Jets",
@@ -19,15 +19,15 @@
     },
     {
       "team": "Baltimore",
-      "probability": 0.059000000000000004
+      "probability": 0.057999999999999996
     },
     {
       "team": "Cincinnati",
-      "probability": 0.036000000000000004
+      "probability": 0.038
     },
     {
       "team": "Cleveland",
-      "probability": 0.002
+      "probability": 0.003
     },
     {
       "team": "Pittsburgh",
@@ -35,7 +35,7 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.11199999999999999
+      "probability": 0.115
     },
     {
       "team": "Indianapolis",
@@ -51,11 +51,11 @@
     },
     {
       "team": "Kansas City",
-      "probability": 0.111
+      "probability": 0.10400000000000001
     },
     {
       "team": "Denver",
-      "probability": 0.031
+      "probability": 0.027999999999999997
     },
     {
       "team": "Las Vegas",
@@ -75,19 +75,19 @@
     },
     {
       "team": "Dallas",
-      "probability": 0.013000000000000001
+      "probability": 0.013999999999999999
     },
     {
       "team": "Washington",
-      "probability": 0.003
+      "probability": 0.002
     },
     {
       "team": "Minnesota",
-      "probability": 0.052000000000000005
+      "probability": 0.051
     },
     {
       "team": "Chicago",
-      "probability": 0.07200000000000001
+      "probability": 0.077
     },
     {
       "team": "Detroit",
@@ -99,7 +99,7 @@
     },
     {
       "team": "Carolina",
-      "probability": 0.013000000000000001
+      "probability": 0.013999999999999999
     },
     {
       "team": "Atlanta",
@@ -115,11 +115,11 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.127
+      "probability": 0.128
     },
     {
       "team": "Seattle",
-      "probability": 0.08199999999999999
+      "probability": 0.078
     },
     {
       "team": "LA Rams",
@@ -130,6 +130,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.997,
+  "probability_sum": 0.998,
   "suspect": false
 }
