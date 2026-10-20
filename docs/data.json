@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-20T00:10:09.353487+00:00",
-  "generated_at_melbourne": "2026-10-20T11:10:09.353487+11:00",
+  "generated_at": "2026-10-20T08:20:26.313988+00:00",
+  "generated_at_melbourne": "2026-10-20T19:20:26.313988+11:00",
   "odds_fetched_at": "2026-09-17T14:44:50.526363+00:00",
-  "probabilities_fetched_at": "2026-10-20T00:10:09.260251+00:00",
+  "probabilities_fetched_at": "2026-10-20T08:20:25.789946+00:00",
   "competitions": [
     {
       "key": "americanfootball_nfl_super_bowl_winner",
       "name": "NFL Super Bowl",
       "commence_time": "2027-02-14T23:35:00Z",
-      "days_to_event": 117.97558618649306,
+      "days_to_event": 117.63511210662037,
       "bookmaker_overround": {
         "unibet": 1.211985332643044,
         "tab": 1.308372840869264,
@@ -19,13 +19,13 @@
         "tab": "2026-09-17T14:42:25Z",
         "sportsbet": "2026-09-17T14:43:07Z"
       },
-      "probability_sum": 1.0010000000000001
+      "probability_sum": 1.0
     },
     {
       "key": "basketball_nba_championship_winner",
       "name": "NBA Championship",
       "commence_time": "2027-06-19T00:40:00Z",
-      "days_to_event": 242.02072507538193,
+      "days_to_event": 241.68025099550925,
       "bookmaker_overround": {
         "sportsbet": 1.2269108134571363,
         "unibet": 1.2405203647895338
@@ -34,7 +34,7 @@
         "sportsbet": "2026-09-17T14:34:31Z",
         "unibet": "2026-09-17T14:44:39Z"
       },
-      "probability_sum": 1.001
+      "probability_sum": 0.999
     }
   ],
   "teams": [
@@ -42,8 +42,8 @@
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Minnesota Vikings",
-      "model_probability": 0.07200000000000001,
-      "fair_odds": 13.888888888888888,
+      "model_probability": 0.078,
+      "fair_odds": 12.820512820512821,
       "prices": {
         "sportsbet": 36.0,
         "tab": 41.0,
@@ -51,15 +51,15 @@
       },
       "best_price": 46.0,
       "best_bookmaker": "unibet",
-      "edge": 2.3120000000000003,
-      "annualised_edge": 39.65246605375173
+      "edge": 2.588,
+      "annualised_edge": 51.67499482010599
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Carolina Panthers",
-      "model_probability": 0.027999999999999997,
-      "fair_odds": 35.714285714285715,
+      "model_probability": 0.027000000000000003,
+      "fair_odds": 37.03703703703703,
       "prices": {
         "sportsbet": 101.0,
         "tab": 81.0,
@@ -67,15 +67,15 @@
       },
       "best_price": 101.0,
       "best_bookmaker": "unibet",
-      "edge": 1.8279999999999998,
-      "annualised_edge": 23.935281467414455
+      "edge": 1.7270000000000003,
+      "annualised_edge": 21.482801024897157
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "San Francisco 49ers",
-      "model_probability": 0.175,
-      "fair_odds": 5.714285714285714,
+      "model_probability": 0.155,
+      "fair_odds": 6.451612903225807,
       "prices": {
         "sportsbet": 14.0,
         "tab": 11.0,
@@ -83,15 +83,15 @@
       },
       "best_price": 16.0,
       "best_bookmaker": "unibet",
-      "edge": 1.7999999999999998,
-      "annualised_edge": 23.179345860449953
+      "edge": 1.48,
+      "annualised_edge": 15.745982164808723
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Jacksonville Jaguars",
-      "model_probability": 0.096,
-      "fair_odds": 10.416666666666666,
+      "model_probability": 0.094,
+      "fair_odds": 10.638297872340425,
       "prices": {
         "sportsbet": 23.0,
         "tab": 23.0,
@@ -99,15 +99,15 @@
       },
       "best_price": 23.0,
       "best_bookmaker": "unibet",
-      "edge": 1.2080000000000002,
-      "annualised_edge": 10.595383426571603
+      "edge": 1.162,
+      "annualised_edge": 9.93944487046554
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Kansas City Chiefs",
-      "model_probability": 0.115,
-      "fair_odds": 8.695652173913043,
+      "model_probability": 0.11599999999999999,
+      "fair_odds": 8.620689655172415,
       "prices": {
         "sportsbet": 14.0,
         "tab": 13.0,
@@ -115,8 +115,8 @@
       },
       "best_price": 14.0,
       "best_bookmaker": "unibet",
-      "edge": 0.6100000000000001,
-      "annualised_edge": 3.3640568313729515
+      "edge": 0.6239999999999999,
+      "annualised_edge": 3.502041500791953
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -132,14 +132,14 @@
       "best_price": 501.0,
       "best_bookmaker": "unibet",
       "edge": 0.5030000000000001,
-      "annualised_edge": 2.5276573226812844
+      "annualised_edge": 2.5405521352702056
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "New England Patriots",
-      "model_probability": 0.054000000000000006,
-      "fair_odds": 18.518518518518515,
+      "model_probability": 0.057,
+      "fair_odds": 17.543859649122805,
       "prices": {
         "sportsbet": 21.0,
         "tab": 21.0,
@@ -147,15 +147,15 @@
       },
       "best_price": 21.0,
       "best_bookmaker": "unibet",
-      "edge": 0.13400000000000012,
-      "annualised_edge": 0.47558818597357977
+      "edge": 0.19700000000000006,
+      "annualised_edge": 0.7470756376928309
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "Philadelphia 76ers",
-      "model_probability": 0.095,
-      "fair_odds": 10.526315789473685,
+      "model_probability": 0.099,
+      "fair_odds": 10.1010101010101,
       "prices": {
         "sportsbet": 11.0,
         "tab": null,
@@ -163,31 +163,15 @@
       },
       "best_price": 11.0,
       "best_bookmaker": "sportsbet",
-      "edge": 0.04499999999999993,
-      "annualised_edge": 0.06863637401757128
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Cleveland Cavaliers",
-      "model_probability": 0.033,
-      "fair_odds": 30.3030303030303,
-      "prices": {
-        "sportsbet": 23.0,
-        "tab": null,
-        "unibet": 31.0
-      },
-      "best_price": 31.0,
-      "best_bookmaker": "unibet",
-      "edge": 0.02300000000000013,
-      "annualised_edge": 0.0348890502174084
+      "edge": 0.08899999999999997,
+      "annualised_edge": 0.13742225963232868
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Buffalo Bills",
-      "model_probability": 0.10099999999999999,
-      "fair_odds": 9.900990099009901,
+      "model_probability": 0.105,
+      "fair_odds": 9.523809523809524,
       "prices": {
         "sportsbet": 10.0,
         "tab": 10.0,
@@ -195,15 +179,15 @@
       },
       "best_price": 10.0,
       "best_bookmaker": "unibet",
-      "edge": 0.010000000000000009,
-      "annualised_edge": 0.03126369138881402
+      "edge": 0.050000000000000044,
+      "annualised_edge": 0.16344665878607922
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "Golden State Warriors",
-      "model_probability": 0.016,
-      "fair_odds": 62.5,
+      "model_probability": 0.017,
+      "fair_odds": 58.8235294117647,
       "prices": {
         "sportsbet": 61.0,
         "tab": null,
@@ -211,8 +195,24 @@
       },
       "best_price": 61.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.02400000000000002,
-      "annualised_edge": -0.03597366599688523
+      "edge": 0.037000000000000144,
+      "annualised_edge": 0.05640396746428533
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Cleveland Cavaliers",
+      "model_probability": 0.031,
+      "fair_odds": 32.25806451612903,
+      "prices": {
+        "sportsbet": 23.0,
+        "tab": null,
+        "unibet": 31.0
+      },
+      "best_price": 31.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.039000000000000035,
+      "annualised_edge": -0.05831029052684422
     },
     {
       "competition_key": "basketball_nba_championship_winner",
@@ -228,14 +228,14 @@
       "best_price": 26.0,
       "best_bookmaker": "unibet",
       "edge": -0.06399999999999983,
-      "annualised_edge": -0.09493432713664951
+      "annualised_edge": -0.09506150035783634
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "Boston Celtics",
-      "model_probability": 0.061,
-      "fair_odds": 16.39344262295082,
+      "model_probability": 0.062,
+      "fair_odds": 16.129032258064516,
       "prices": {
         "sportsbet": 15.0,
         "tab": null,
@@ -243,15 +243,15 @@
       },
       "best_price": 15.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.08499999999999996,
-      "annualised_edge": -0.12538325086777036
+      "edge": -0.07000000000000006,
+      "annualised_edge": -0.1038080058673655
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "San Antonio Spurs",
-      "model_probability": 0.242,
-      "fair_odds": 4.132231404958678,
+      "model_probability": 0.244,
+      "fair_odds": 4.098360655737705,
       "prices": {
         "sportsbet": 3.75,
         "tab": null,
@@ -259,40 +259,8 @@
       },
       "best_price": 3.75,
       "best_bookmaker": "sportsbet",
-      "edge": -0.09250000000000003,
-      "annualised_edge": -0.1361725112316473
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Miami Heat",
-      "model_probability": 0.025,
-      "fair_odds": 40.0,
-      "prices": {
-        "sportsbet": 36.0,
-        "tab": null,
-        "unibet": 31.0
-      },
-      "best_price": 36.0,
-      "best_bookmaker": "sportsbet",
-      "edge": -0.09999999999999998,
-      "annualised_edge": -0.14691655709157614
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Denver Nuggets",
-      "model_probability": 0.034,
-      "fair_odds": 29.41176470588235,
-      "prices": {
-        "sportsbet": 26.0,
-        "tab": null,
-        "unibet": 26.0
-      },
-      "best_price": 26.0,
-      "best_bookmaker": "sportsbet",
-      "edge": -0.11599999999999988,
-      "annualised_edge": -0.1696852166959807
+      "edge": -0.08499999999999996,
+      "annualised_edge": -0.12554830469606426
     },
     {
       "competition_key": "basketball_nba_championship_winner",
@@ -308,30 +276,14 @@
       "best_price": 26.0,
       "best_bookmaker": "sportsbet",
       "edge": -0.11599999999999988,
-      "annualised_edge": -0.1696852166959807
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Los Angeles Lakers",
-      "model_probability": 0.017,
-      "fair_odds": 58.8235294117647,
-      "prices": {
-        "sportsbet": 51.0,
-        "tab": null,
-        "unibet": 41.0
-      },
-      "best_price": 51.0,
-      "best_bookmaker": "sportsbet",
-      "edge": -0.1329999999999999,
-      "annualised_edge": -0.1936484730758261
+      "annualised_edge": -0.16990269997858098
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Chicago Bears",
-      "model_probability": 0.040999999999999995,
-      "fair_odds": 24.39024390243903,
+      "model_probability": 0.042,
+      "fair_odds": 23.809523809523807,
       "prices": {
         "sportsbet": 21.0,
         "tab": 21.0,
@@ -339,8 +291,24 @@
       },
       "best_price": 21.0,
       "best_bookmaker": "unibet",
-      "edge": -0.13900000000000012,
-      "annualised_edge": -0.37062596645987234
+      "edge": -0.118,
+      "annualised_edge": -0.32267188416028636
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Miami Heat",
+      "model_probability": 0.024,
+      "fair_odds": 41.666666666666664,
+      "prices": {
+        "sportsbet": 36.0,
+        "tab": null,
+        "unibet": 31.0
+      },
+      "best_price": 36.0,
+      "best_bookmaker": "sportsbet",
+      "edge": -0.136,
+      "annualised_edge": -0.1981017810613861
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -356,30 +324,62 @@
       "best_price": 61.0,
       "best_bookmaker": "unibet",
       "edge": -0.14600000000000013,
-      "annualised_edge": -0.3863224766123474
+      "annualised_edge": -0.38718914798966164
     },
     {
-      "competition_key": "americanfootball_nfl_super_bowl_winner",
-      "competition_name": "NFL Super Bowl",
-      "team": "Denver Broncos",
-      "model_probability": 0.036000000000000004,
-      "fair_odds": 27.777777777777775,
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Portland Trail Blazers",
+      "model_probability": 0.009000000000000001,
+      "fair_odds": 111.1111111111111,
       "prices": {
-        "sportsbet": 23.0,
-        "tab": 21.0,
-        "unibet": 21.0
+        "sportsbet": 91.0,
+        "tab": null,
+        "unibet": 81.0
       },
-      "best_price": 23.0,
+      "best_price": 91.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.17199999999999993,
-      "annualised_edge": -0.4423042935394932
+      "edge": -0.18099999999999994,
+      "annualised_edge": -0.2603331567954169
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Los Angeles Lakers",
+      "model_probability": 0.016,
+      "fair_odds": 62.5,
+      "prices": {
+        "sportsbet": 51.0,
+        "tab": null,
+        "unibet": 41.0
+      },
+      "best_price": 51.0,
+      "best_bookmaker": "sportsbet",
+      "edge": -0.18399999999999994,
+      "annualised_edge": -0.26442123227584513
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Denver Nuggets",
+      "model_probability": 0.031,
+      "fair_odds": 32.25806451612903,
+      "prices": {
+        "sportsbet": 26.0,
+        "tab": null,
+        "unibet": 26.0
+      },
+      "best_price": 26.0,
+      "best_bookmaker": "sportsbet",
+      "edge": -0.19399999999999995,
+      "annualised_edge": -0.2779927369520647
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "Oklahoma City Thunder",
-      "model_probability": 0.23199999999999998,
-      "fair_odds": 4.310344827586207,
+      "model_probability": 0.23,
+      "fair_odds": 4.3478260869565215,
       "prices": {
         "sportsbet": 3.5,
         "tab": null,
@@ -387,8 +387,8 @@
       },
       "best_price": 3.5,
       "best_bookmaker": "sportsbet",
-      "edge": -0.18800000000000006,
-      "annualised_edge": -0.269536946192666
+      "edge": -0.19499999999999995,
+      "annualised_edge": -0.27934518535448283
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -404,46 +404,30 @@
       "best_price": 21.0,
       "best_bookmaker": "tab",
       "edge": -0.20200000000000007,
-      "annualised_edge": -0.5024799110229523
+      "annualised_edge": -0.5034841768548519
     },
     {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "New York Knicks",
-      "model_probability": 0.071,
-      "fair_odds": 14.084507042253522,
+      "competition_key": "americanfootball_nfl_super_bowl_winner",
+      "competition_name": "NFL Super Bowl",
+      "team": "Denver Broncos",
+      "model_probability": 0.034,
+      "fair_odds": 29.41176470588235,
       "prices": {
-        "sportsbet": 11.0,
-        "tab": null,
-        "unibet": 10.0
+        "sportsbet": 23.0,
+        "tab": 21.0,
+        "unibet": 21.0
       },
-      "best_price": 11.0,
+      "best_price": 23.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.21900000000000008,
-      "annualised_edge": -0.31118398766401445
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Indiana Pacers",
-      "model_probability": 0.019,
-      "fair_odds": 52.631578947368425,
-      "prices": {
-        "sportsbet": 41.0,
-        "tab": null,
-        "unibet": 41.0
-      },
-      "best_price": 41.0,
-      "best_bookmaker": "sportsbet",
-      "edge": -0.22099999999999997,
-      "annualised_edge": -0.3138425064327086
+      "edge": -0.21799999999999997,
+      "annualised_edge": -0.5337269626122315
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
       "team": "Toronto Raptors",
-      "model_probability": 0.028999999999999998,
-      "fair_odds": 34.48275862068966,
+      "model_probability": 0.03,
+      "fair_odds": 33.333333333333336,
       "prices": {
         "sportsbet": 21.0,
         "tab": null,
@@ -451,40 +435,56 @@
       },
       "best_price": 26.0,
       "best_bookmaker": "unibet",
-      "edge": -0.246,
-      "annualised_edge": -0.34678011429337796
+      "edge": -0.21999999999999997,
+      "annualised_edge": -0.3128765002527406
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
-      "team": "Portland Trail Blazers",
-      "model_probability": 0.008,
-      "fair_odds": 125.0,
+      "team": "New York Knicks",
+      "model_probability": 0.07,
+      "fair_odds": 14.285714285714285,
       "prices": {
-        "sportsbet": 91.0,
+        "sportsbet": 11.0,
         "tab": null,
-        "unibet": 81.0
+        "unibet": 10.0
       },
-      "best_price": 91.0,
+      "best_price": 11.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.272,
-      "annualised_edge": -0.38045127764271514
+      "edge": -0.22999999999999998,
+      "annualised_edge": -0.3261371878021929
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
-      "team": "Utah Jazz",
-      "model_probability": 0.004,
-      "fair_odds": 250.0,
+      "team": "Phoenix Suns",
+      "model_probability": 0.005,
+      "fair_odds": 200.0,
       "prices": {
-        "sportsbet": 176.0,
+        "sportsbet": 126.0,
         "tab": null,
         "unibet": 151.0
       },
-      "best_price": 176.0,
+      "best_price": 151.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.245,
+      "annualised_edge": -0.3458638188884674
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Indiana Pacers",
+      "model_probability": 0.018000000000000002,
+      "fair_odds": 55.55555555555555,
+      "prices": {
+        "sportsbet": 41.0,
+        "tab": null,
+        "unibet": 41.0
+      },
+      "best_price": 41.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.29600000000000004,
-      "annualised_edge": -0.41099504836237855
+      "edge": -0.2619999999999999,
+      "annualised_edge": -0.3679800173047918
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -500,7 +500,23 @@
       "best_price": 19.0,
       "best_bookmaker": "unibet",
       "edge": -0.29699999999999993,
-      "annualised_edge": -0.6638747538955043
+      "annualised_edge": -0.6649337583838391
+    },
+    {
+      "competition_key": "americanfootball_nfl_super_bowl_winner",
+      "competition_name": "NFL Super Bowl",
+      "team": "Seattle Seahawks",
+      "model_probability": 0.053,
+      "fair_odds": 18.867924528301888,
+      "prices": {
+        "sportsbet": 12.0,
+        "tab": 11.0,
+        "unibet": 13.0
+      },
+      "best_price": 13.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.31100000000000005,
+      "annualised_edge": -0.6852076557445518
     },
     {
       "competition_key": "basketball_nba_championship_winner",
@@ -516,55 +532,23 @@
       "best_price": 61.0,
       "best_bookmaker": "unibet",
       "edge": -0.32899999999999996,
-      "annualised_edge": -0.45213429554236195
+      "annualised_edge": -0.45259852325520333
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
-      "team": "Seattle Seahawks",
-      "model_probability": 0.049,
-      "fair_odds": 20.408163265306122,
+      "team": "Green Bay Packers",
+      "model_probability": 0.025,
+      "fair_odds": 40.0,
       "prices": {
-        "sportsbet": 12.0,
-        "tab": 11.0,
-        "unibet": 13.0
+        "sportsbet": 26.0,
+        "tab": 26.0,
+        "unibet": 26.0
       },
-      "best_price": 13.0,
+      "best_price": 26.0,
       "best_bookmaker": "unibet",
-      "edge": -0.363,
-      "annualised_edge": -0.7522379782274053
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Charlotte Hornets",
-      "model_probability": 0.005,
-      "fair_odds": 200.0,
-      "prices": {
-        "sportsbet": 126.0,
-        "tab": null,
-        "unibet": 101.0
-      },
-      "best_price": 126.0,
-      "best_bookmaker": "sportsbet",
-      "edge": -0.37,
-      "annualised_edge": -0.5018290504764502
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Orlando Magic",
-      "model_probability": 0.01,
-      "fair_odds": 100.0,
-      "prices": {
-        "sportsbet": 46.0,
-        "tab": null,
-        "unibet": 61.0
-      },
-      "best_price": 61.0,
-      "best_bookmaker": "unibet",
-      "edge": -0.39,
-      "annualised_edge": -0.5254867484873484
+      "edge": -0.35,
+      "annualised_edge": -0.7372729790658679
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -580,39 +564,71 @@
       "best_price": 151.0,
       "best_bookmaker": "unibet",
       "edge": -0.396,
-      "annualised_edge": -0.7898357488337817
+      "annualised_edge": -0.7907824506197887
     },
     {
       "competition_key": "basketball_nba_championship_winner",
       "competition_name": "NBA Championship",
-      "team": "Phoenix Suns",
+      "team": "Orlando Magic",
+      "model_probability": 0.009000000000000001,
+      "fair_odds": 111.1111111111111,
+      "prices": {
+        "sportsbet": 46.0,
+        "tab": null,
+        "unibet": 61.0
+      },
+      "best_price": 61.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.45099999999999996,
+      "annualised_edge": -0.5957160073970557
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Houston Rockets",
+      "model_probability": 0.013000000000000001,
+      "fair_odds": 76.92307692307692,
+      "prices": {
+        "sportsbet": 34.0,
+        "tab": null,
+        "unibet": 41.0
+      },
+      "best_price": 41.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.46699999999999997,
+      "annualised_edge": -0.6133775641979502
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Utah Jazz",
+      "model_probability": 0.003,
+      "fair_odds": 333.3333333333333,
+      "prices": {
+        "sportsbet": 176.0,
+        "tab": null,
+        "unibet": 151.0
+      },
+      "best_price": 176.0,
+      "best_bookmaker": "sportsbet",
+      "edge": -0.472,
+      "annualised_edge": -0.6188419240029661
+    },
+    {
+      "competition_key": "basketball_nba_championship_winner",
+      "competition_name": "NBA Championship",
+      "team": "Charlotte Hornets",
       "model_probability": 0.004,
       "fair_odds": 250.0,
       "prices": {
         "sportsbet": 126.0,
         "tab": null,
-        "unibet": 151.0
+        "unibet": 101.0
       },
-      "best_price": 151.0,
-      "best_bookmaker": "unibet",
-      "edge": -0.396,
-      "annualised_edge": -0.5325081148549027
-    },
-    {
-      "competition_key": "americanfootball_nfl_super_bowl_winner",
-      "competition_name": "NFL Super Bowl",
-      "team": "Green Bay Packers",
-      "model_probability": 0.023,
-      "fair_odds": 43.47826086956522,
-      "prices": {
-        "sportsbet": 26.0,
-        "tab": 26.0,
-        "unibet": 26.0
-      },
-      "best_price": 26.0,
-      "best_bookmaker": "unibet",
-      "edge": -0.402,
-      "annualised_edge": -0.7962279451498766
+      "best_price": 126.0,
+      "best_bookmaker": "sportsbet",
+      "edge": -0.496,
+      "annualised_edge": -0.6447020010705375
     },
     {
       "competition_key": "basketball_nba_championship_winner",
@@ -628,23 +644,7 @@
       "best_price": 501.0,
       "best_bookmaker": "sportsbet",
       "edge": -0.499,
-      "annualised_edge": -0.6473737187238036
-    },
-    {
-      "competition_key": "basketball_nba_championship_winner",
-      "competition_name": "NBA Championship",
-      "team": "Houston Rockets",
-      "model_probability": 0.012,
-      "fair_odds": 83.33333333333333,
-      "prices": {
-        "sportsbet": 34.0,
-        "tab": null,
-        "unibet": 41.0
-      },
-      "best_price": 41.0,
-      "best_bookmaker": "unibet",
-      "edge": -0.508,
-      "annualised_edge": -0.6568834263945578
+      "annualised_edge": -0.6478911478165157
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -660,7 +660,7 @@
       "best_price": 101.0,
       "best_bookmaker": "unibet",
       "edge": -0.596,
-      "annualised_edge": -0.9394381861894956
+      "annualised_edge": -0.9399277134196474
     },
     {
       "competition_key": "basketball_nba_championship_winner",
@@ -676,14 +676,14 @@
       "best_price": 201.0,
       "best_bookmaker": "sportsbet",
       "edge": -0.598,
-      "annualised_edge": -0.7470006893193559
+      "annualised_edge": -0.74749006801407
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Baltimore Ravens",
-      "model_probability": 0.035,
-      "fair_odds": 28.57142857142857,
+      "model_probability": 0.036000000000000004,
+      "fair_odds": 27.777777777777775,
       "prices": {
         "sportsbet": 11.0,
         "tab": 11.0,
@@ -691,15 +691,15 @@
       },
       "best_price": 11.0,
       "best_bookmaker": "unibet",
-      "edge": -0.615,
-      "annualised_edge": -0.9478236918188521
+      "edge": -0.604,
+      "annualised_edge": -0.9435423814172896
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Houston Texans",
-      "model_probability": 0.016,
-      "fair_odds": 62.5,
+      "model_probability": 0.018000000000000002,
+      "fair_odds": 55.55555555555555,
       "prices": {
         "sportsbet": 20.0,
         "tab": 19.0,
@@ -707,8 +707,24 @@
       },
       "best_price": 20.0,
       "best_bookmaker": "sportsbet",
-      "edge": -0.6799999999999999,
-      "annualised_edge": -0.970555574169629
+      "edge": -0.6399999999999999,
+      "annualised_edge": -0.9579961878456149
+    },
+    {
+      "competition_key": "americanfootball_nfl_super_bowl_winner",
+      "competition_name": "NFL Super Bowl",
+      "team": "Dallas Cowboys",
+      "model_probability": 0.013000000000000001,
+      "fair_odds": 76.92307692307692,
+      "prices": {
+        "sportsbet": 23.0,
+        "tab": 23.0,
+        "unibet": 26.0
+      },
+      "best_price": 26.0,
+      "best_bookmaker": "unibet",
+      "edge": -0.6619999999999999,
+      "annualised_edge": -0.9654605328888857
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -724,7 +740,7 @@
       "best_price": 51.0,
       "best_bookmaker": "unibet",
       "edge": -0.694,
-      "annualised_edge": -0.9743614262665142
+      "annualised_edge": -0.9746318564934138
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -740,23 +756,7 @@
       "best_price": 101.0,
       "best_bookmaker": "unibet",
       "edge": -0.6970000000000001,
-      "annualised_edge": -0.975131141114418
-    },
-    {
-      "competition_key": "americanfootball_nfl_super_bowl_winner",
-      "competition_name": "NFL Super Bowl",
-      "team": "Dallas Cowboys",
-      "model_probability": 0.011000000000000001,
-      "fair_odds": 90.9090909090909,
-      "prices": {
-        "sportsbet": 23.0,
-        "tab": 23.0,
-        "unibet": 26.0
-      },
-      "best_price": 26.0,
-      "best_bookmaker": "unibet",
-      "edge": -0.714,
-      "annualised_edge": -0.979199567206677
+      "annualised_edge": -0.975395623337626
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -772,14 +772,14 @@
       "best_price": 201.0,
       "best_bookmaker": "unibet",
       "edge": -0.7989999999999999,
-      "annualised_edge": -0.993014687470343
+      "annualised_edge": -0.993114329796524
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
       "competition_name": "NFL Super Bowl",
       "team": "Los Angeles Rams",
-      "model_probability": 0.024,
-      "fair_odds": 41.666666666666664,
+      "model_probability": 0.022000000000000002,
+      "fair_odds": 45.45454545454545,
       "prices": {
         "sportsbet": 7.0,
         "tab": 7.0,
@@ -787,8 +787,8 @@
       },
       "best_price": 7.5,
       "best_bookmaker": "unibet",
-      "edge": -0.8200000000000001,
-      "annualised_edge": -0.9950350250854476
+      "edge": -0.835,
+      "annualised_edge": -0.9962675209366103
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -804,7 +804,7 @@
       "best_price": 51.0,
       "best_bookmaker": "unibet",
       "edge": -0.847,
-      "annualised_edge": -0.9969970433392585
+      "annualised_edge": -0.9970471031592898
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -820,7 +820,7 @@
       "best_price": 76.0,
       "best_bookmaker": "unibet",
       "edge": -0.848,
-      "annualised_edge": -0.9970573525342062
+      "annualised_edge": -0.997106576893502
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -836,7 +836,7 @@
       "best_price": 18.0,
       "best_bookmaker": "unibet",
       "edge": -0.856,
-      "annualised_edge": -0.9975106211108266
+      "annualised_edge": -0.9975534480216571
     },
     {
       "competition_key": "americanfootball_nfl_super_bowl_winner",
@@ -852,7 +852,7 @@
       "best_price": 67.0,
       "best_bookmaker": "unibet",
       "edge": -0.866,
-      "annualised_edge": -0.9980075654689998
+      "annualised_edge": -0.9980431046399916
     }
   ],
   "unmatched": []
