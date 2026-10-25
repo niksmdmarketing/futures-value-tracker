@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Tampa Bay",
-      "probability": 0.249
+      "probability": 0.132
     },
     {
       "team": "NY Yankees",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Milwaukee",
-      "probability": 0.7509999999999999
+      "probability": 0.868
     },
     {
       "team": "Chi Cubs",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.9999999999999999,
+  "probability_sum": 1.0,
   "suspect": true
 }
