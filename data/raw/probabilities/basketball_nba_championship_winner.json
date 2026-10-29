@@ -7,15 +7,15 @@
     },
     {
       "team": "Boston",
-      "probability": 0.063
+      "probability": 0.064
     },
     {
       "team": "Philadelphia",
-      "probability": 0.099
+      "probability": 0.096
     },
     {
       "team": "New York",
-      "probability": 0.039
+      "probability": 0.038
     },
     {
       "team": "Brooklyn",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.071
+      "probability": 0.07400000000000001
     },
     {
       "team": "Cleveland",
-      "probability": 0.025
+      "probability": 0.024
     },
     {
       "team": "Indiana",
@@ -43,7 +43,7 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.016
+      "probability": 0.015
     },
     {
       "team": "Miami",
@@ -51,7 +51,7 @@
     },
     {
       "team": "Orlando",
-      "probability": 0.001
+      "probability": 0.002
     },
     {
       "team": "Charlotte",
@@ -71,7 +71,7 @@
     },
     {
       "team": "Portland",
-      "probability": 0.03
+      "probability": 0.032
     },
     {
       "team": "Denver",
@@ -83,11 +83,11 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.027999999999999997
+      "probability": 0.028999999999999998
     },
     {
       "team": "Golden State",
-      "probability": 0.013000000000000001
+      "probability": 0.013999999999999999
     },
     {
       "team": "Phoenix",
@@ -107,7 +107,7 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.19399999999999998
+      "probability": 0.192
     },
     {
       "team": "Dallas",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.001,
+  "probability_sum": 1.002,
   "suspect": false
 }
