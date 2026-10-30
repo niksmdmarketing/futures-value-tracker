@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.105
+      "probability": 0.1
     },
     {
       "team": "New England",
-      "probability": 0.049
+      "probability": 0.048
     },
     {
       "team": "NY Jets",
@@ -19,7 +19,7 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.081
+      "probability": 0.095
     },
     {
       "team": "Pittsburgh",
@@ -35,7 +35,7 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.102
+      "probability": 0.1
     },
     {
       "team": "Houston",
@@ -43,7 +43,7 @@
     },
     {
       "team": "Indianapolis",
-      "probability": 0.002
+      "probability": 0.001
     },
     {
       "team": "Tennessee",
@@ -51,7 +51,7 @@
     },
     {
       "team": "Kansas City",
-      "probability": 0.081
+      "probability": 0.076
     },
     {
       "team": "Denver",
@@ -71,7 +71,7 @@
     },
     {
       "team": "Dallas",
-      "probability": 0.021
+      "probability": 0.023
     },
     {
       "team": "Philadelphia",
@@ -83,7 +83,7 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.08800000000000001
+      "probability": 0.085
     },
     {
       "team": "Chicago",
@@ -91,7 +91,7 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.039
+      "probability": 0.038
     },
     {
       "team": "Green Bay",
@@ -103,7 +103,7 @@
     },
     {
       "team": "Tampa Bay",
-      "probability": 0.016
+      "probability": 0.015
     },
     {
       "team": "Carolina",
@@ -115,21 +115,21 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.10800000000000001
+      "probability": 0.11800000000000001
     },
     {
       "team": "Seattle",
-      "probability": 0.083
+      "probability": 0.075
     },
     {
       "team": "LA Rams",
-      "probability": 0.03
+      "probability": 0.028999999999999998
     },
     {
       "team": "Arizona",
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0010000000000001,
+  "probability_sum": 0.999,
   "suspect": false
 }
