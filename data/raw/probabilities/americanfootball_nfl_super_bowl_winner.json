@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.099
+      "probability": 0.105
     },
     {
       "team": "New England",
-      "probability": 0.048
+      "probability": 0.049
     },
     {
       "team": "NY Jets",
@@ -19,11 +19,11 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.087
+      "probability": 0.081
     },
     {
       "team": "Pittsburgh",
-      "probability": 0.019
+      "probability": 0.02
     },
     {
       "team": "Baltimore",
@@ -35,7 +35,7 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.10099999999999999
+      "probability": 0.102
     },
     {
       "team": "Houston",
@@ -51,7 +51,7 @@
     },
     {
       "team": "Kansas City",
-      "probability": 0.086
+      "probability": 0.081
     },
     {
       "team": "Denver",
@@ -83,23 +83,19 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.091
+      "probability": 0.08800000000000001
     },
     {
       "team": "Chicago",
-      "probability": 0.045
+      "probability": 0.043
     },
     {
       "team": "Detroit",
-      "probability": 0.035
+      "probability": 0.039
     },
     {
       "team": "Green Bay",
-      "probability": 0.021
-    },
-    {
-      "team": "Carolina",
-      "probability": 0.006999999999999999
+      "probability": 0.024
     },
     {
       "team": "Atlanta",
@@ -110,26 +106,30 @@
       "probability": 0.016
     },
     {
+      "team": "Carolina",
+      "probability": 0.006
+    },
+    {
       "team": "New Orleans",
       "probability": 0.002
     },
     {
       "team": "San Francisco",
-      "probability": 0.115
+      "probability": 0.10800000000000001
     },
     {
       "team": "Seattle",
-      "probability": 0.07400000000000001
+      "probability": 0.083
     },
     {
       "team": "LA Rams",
-      "probability": 0.031
+      "probability": 0.03
     },
     {
       "team": "Arizona",
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.001,
+  "probability_sum": 1.0010000000000001,
   "suspect": false
 }
