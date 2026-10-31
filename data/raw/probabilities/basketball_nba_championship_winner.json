@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Philadelphia",
-      "probability": 0.10300000000000001
+      "probability": 0.10400000000000001
     },
     {
       "team": "Boston",
-      "probability": 0.066
+      "probability": 0.064
     },
     {
       "team": "Toronto",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.084
+      "probability": 0.085
     },
     {
       "team": "Cleveland",
-      "probability": 0.024
+      "probability": 0.022000000000000002
     },
     {
       "team": "Indiana",
@@ -43,11 +43,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.016
+      "probability": 0.015
     },
     {
       "team": "Miami",
-      "probability": 0.008
+      "probability": 0.006999999999999999
     },
     {
       "team": "Orlando",
@@ -63,19 +63,19 @@
     },
     {
       "team": "Okla City",
-      "probability": 0.139
+      "probability": 0.142
     },
     {
       "team": "Minnesota",
       "probability": 0.146
     },
     {
-      "team": "Portland",
+      "team": "Denver",
       "probability": 0.012
     },
     {
-      "team": "Denver",
-      "probability": 0.01
+      "team": "Portland",
+      "probability": 0.012
     },
     {
       "team": "Utah",
@@ -83,11 +83,11 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.027999999999999997
+      "probability": 0.013999999999999999
     },
     {
       "team": "Golden State",
-      "probability": 0.015
+      "probability": 0.026000000000000002
     },
     {
       "team": "Phoenix",
@@ -103,15 +103,15 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.193
+      "probability": 0.19399999999999998
     },
     {
       "team": "Houston",
-      "probability": 0.045
+      "probability": 0.046
     },
     {
       "team": "Dallas",
-      "probability": 0.005
+      "probability": 0.004
     },
     {
       "team": "Memphis",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0010000000000001,
+  "probability_sum": 1.0,
   "suspect": false
 }
