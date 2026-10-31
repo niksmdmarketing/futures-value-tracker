@@ -2,20 +2,20 @@
   "competition_name": "NBA Championship",
   "teams": [
     {
-      "team": "Toronto",
-      "probability": 0.09
+      "team": "Philadelphia",
+      "probability": 0.10300000000000001
     },
     {
       "team": "Boston",
-      "probability": 0.065
+      "probability": 0.066
     },
     {
-      "team": "Philadelphia",
-      "probability": 0.1
+      "team": "Toronto",
+      "probability": 0.062
     },
     {
       "team": "New York",
-      "probability": 0.04
+      "probability": 0.034
     },
     {
       "team": "Brooklyn",
@@ -23,15 +23,15 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.073
+      "probability": 0.084
     },
     {
       "team": "Cleveland",
-      "probability": 0.022000000000000002
+      "probability": 0.024
     },
     {
       "team": "Indiana",
-      "probability": 0.006
+      "probability": 0.003
     },
     {
       "team": "Chicago",
@@ -47,27 +47,27 @@
     },
     {
       "team": "Miami",
-      "probability": 0.004
+      "probability": 0.008
     },
     {
       "team": "Orlando",
-      "probability": 0.002
-    },
-    {
-      "team": "Charlotte",
-      "probability": 0.001
+      "probability": 0.003
     },
     {
       "team": "Washington",
+      "probability": 0.001
+    },
+    {
+      "team": "Charlotte",
       "probability": 0.0
     },
     {
       "team": "Okla City",
-      "probability": 0.141
+      "probability": 0.139
     },
     {
       "team": "Minnesota",
-      "probability": 0.109
+      "probability": 0.146
     },
     {
       "team": "Portland",
@@ -83,7 +83,7 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.028999999999999998
+      "probability": 0.027999999999999997
     },
     {
       "team": "Golden State",
@@ -102,19 +102,19 @@
       "probability": 0.0
     },
     {
-      "team": "Houston",
-      "probability": 0.063
-    },
-    {
       "team": "San Antonio",
-      "probability": 0.196
+      "probability": 0.193
     },
     {
-      "team": "Memphis",
-      "probability": 0.003
+      "team": "Houston",
+      "probability": 0.045
     },
     {
       "team": "Dallas",
+      "probability": 0.005
+    },
+    {
+      "team": "Memphis",
       "probability": 0.003
     },
     {
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.001,
+  "probability_sum": 1.0010000000000001,
   "suspect": false
 }
