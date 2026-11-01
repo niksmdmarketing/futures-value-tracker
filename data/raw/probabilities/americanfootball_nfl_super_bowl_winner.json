@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.098
+      "probability": 0.094
     },
     {
       "team": "New England",
-      "probability": 0.047
+      "probability": 0.05
     },
     {
       "team": "NY Jets",
@@ -19,7 +19,7 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.079
+      "probability": 0.09
     },
     {
       "team": "Pittsburgh",
@@ -35,7 +35,7 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.105
+      "probability": 0.10099999999999999
     },
     {
       "team": "Houston",
@@ -51,11 +51,11 @@
     },
     {
       "team": "Kansas City",
-      "probability": 0.09
+      "probability": 0.08900000000000001
     },
     {
       "team": "Denver",
-      "probability": 0.049
+      "probability": 0.047
     },
     {
       "team": "Las Vegas",
@@ -71,7 +71,7 @@
     },
     {
       "team": "Dallas",
-      "probability": 0.021
+      "probability": 0.022000000000000002
     },
     {
       "team": "Philadelphia",
@@ -83,15 +83,15 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.085
+      "probability": 0.087
     },
     {
       "team": "Chicago",
-      "probability": 0.046
+      "probability": 0.043
     },
     {
       "team": "Detroit",
-      "probability": 0.036000000000000004
+      "probability": 0.035
     },
     {
       "team": "Green Bay",
@@ -103,11 +103,11 @@
     },
     {
       "team": "Tampa Bay",
-      "probability": 0.016
+      "probability": 0.017
     },
     {
       "team": "Carolina",
-      "probability": 0.005
+      "probability": 0.006
     },
     {
       "team": "New Orleans",
@@ -115,21 +115,21 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.121
+      "probability": 0.11199999999999999
     },
     {
       "team": "Seattle",
-      "probability": 0.075
+      "probability": 0.079
     },
     {
       "team": "LA Rams",
-      "probability": 0.027999999999999997
+      "probability": 0.033
     },
     {
       "team": "Arizona",
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.997,
+  "probability_sum": 1.001,
   "suspect": false
 }

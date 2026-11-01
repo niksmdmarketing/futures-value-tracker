@@ -7,7 +7,7 @@
     },
     {
       "team": "Boston",
-      "probability": 0.064
+      "probability": 0.067
     },
     {
       "team": "Toronto",
@@ -15,7 +15,7 @@
     },
     {
       "team": "New York",
-      "probability": 0.034
+      "probability": 0.036000000000000004
     },
     {
       "team": "Brooklyn",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.085
+      "probability": 0.08800000000000001
     },
     {
       "team": "Cleveland",
-      "probability": 0.022000000000000002
+      "probability": 0.035
     },
     {
       "team": "Indiana",
@@ -43,11 +43,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.015
+      "probability": 0.006999999999999999
     },
     {
       "team": "Miami",
-      "probability": 0.006999999999999999
+      "probability": 0.008
     },
     {
       "team": "Orlando",
@@ -63,18 +63,18 @@
     },
     {
       "team": "Okla City",
-      "probability": 0.142
+      "probability": 0.091
     },
     {
       "team": "Minnesota",
-      "probability": 0.146
-    },
-    {
-      "team": "Denver",
-      "probability": 0.012
+      "probability": 0.125
     },
     {
       "team": "Portland",
+      "probability": 0.021
+    },
+    {
+      "team": "Denver",
       "probability": 0.012
     },
     {
@@ -83,11 +83,11 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.013999999999999999
+      "probability": 0.015
     },
     {
       "team": "Golden State",
-      "probability": 0.026000000000000002
+      "probability": 0.027000000000000003
     },
     {
       "team": "Phoenix",
@@ -103,19 +103,19 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.19399999999999998
+      "probability": 0.217
     },
     {
       "team": "Houston",
-      "probability": 0.046
+      "probability": 0.067
+    },
+    {
+      "team": "Memphis",
+      "probability": 0.006
     },
     {
       "team": "Dallas",
       "probability": 0.004
-    },
-    {
-      "team": "Memphis",
-      "probability": 0.003
     },
     {
       "team": "New Orleans",
