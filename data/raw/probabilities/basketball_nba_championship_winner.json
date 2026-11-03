@@ -3,19 +3,19 @@
   "teams": [
     {
       "team": "Philadelphia",
-      "probability": 0.106
+      "probability": 0.107
     },
     {
       "team": "Boston",
-      "probability": 0.055
+      "probability": 0.057
     },
     {
       "team": "Toronto",
-      "probability": 0.042
+      "probability": 0.044000000000000004
     },
     {
       "team": "New York",
-      "probability": 0.033
+      "probability": 0.032
     },
     {
       "team": "Brooklyn",
@@ -23,7 +23,7 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.139
+      "probability": 0.13699999999999998
     },
     {
       "team": "Cleveland",
@@ -43,11 +43,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.006
+      "probability": 0.006999999999999999
     },
     {
       "team": "Miami",
-      "probability": 0.006999999999999999
+      "probability": 0.003
     },
     {
       "team": "Washington",
@@ -63,19 +63,19 @@
     },
     {
       "team": "Okla City",
-      "probability": 0.087
+      "probability": 0.084
     },
     {
       "team": "Minnesota",
-      "probability": 0.10099999999999999
+      "probability": 0.1
     },
     {
       "team": "Portland",
-      "probability": 0.024
+      "probability": 0.026000000000000002
     },
     {
       "team": "Denver",
-      "probability": 0.006999999999999999
+      "probability": 0.008
     },
     {
       "team": "Utah",
@@ -83,15 +83,15 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.015
+      "probability": 0.024
     },
     {
       "team": "Golden State",
-      "probability": 0.026000000000000002
+      "probability": 0.024
     },
     {
       "team": "Phoenix",
-      "probability": 0.001
+      "probability": 0.0
     },
     {
       "team": "LA Clippers",
@@ -103,7 +103,7 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.23800000000000002
+      "probability": 0.233
     },
     {
       "team": "Houston",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0,
+  "probability_sum": 0.999,
   "suspect": false
 }
