@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.131
+      "probability": 0.128
     },
     {
       "team": "New England",
-      "probability": 0.040999999999999995
+      "probability": 0.046
     },
     {
       "team": "NY Jets",
@@ -19,11 +19,11 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.077
+      "probability": 0.07
     },
     {
       "team": "Pittsburgh",
-      "probability": 0.024
+      "probability": 0.025
     },
     {
       "team": "Cleveland",
@@ -31,11 +31,11 @@
     },
     {
       "team": "Baltimore",
-      "probability": 0.004
+      "probability": 0.005
     },
     {
       "team": "Jacksonville",
-      "probability": 0.138
+      "probability": 0.147
     },
     {
       "team": "Houston",
@@ -51,11 +51,11 @@
     },
     {
       "team": "Denver",
-      "probability": 0.057999999999999996
+      "probability": 0.051
     },
     {
       "team": "Kansas City",
-      "probability": 0.053
+      "probability": 0.054000000000000006
     },
     {
       "team": "Las Vegas",
@@ -83,19 +83,19 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.07
+      "probability": 0.064
     },
     {
       "team": "Chicago",
-      "probability": 0.077
+      "probability": 0.07400000000000001
     },
     {
       "team": "Detroit",
-      "probability": 0.043
+      "probability": 0.045
     },
     {
       "team": "Green Bay",
-      "probability": 0.022000000000000002
+      "probability": 0.024
     },
     {
       "team": "Tampa Bay",
@@ -103,7 +103,7 @@
     },
     {
       "team": "Carolina",
-      "probability": 0.006
+      "probability": 0.005
     },
     {
       "team": "Atlanta",
@@ -115,11 +115,11 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.11699999999999999
+      "probability": 0.11900000000000001
     },
     {
       "team": "Seattle",
-      "probability": 0.034
+      "probability": 0.036000000000000004
     },
     {
       "team": "LA Rams",
@@ -130,6 +130,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.998,
+  "probability_sum": 0.996,
   "suspect": false
 }
