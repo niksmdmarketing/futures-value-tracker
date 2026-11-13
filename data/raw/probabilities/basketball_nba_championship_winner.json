@@ -3,19 +3,19 @@
   "teams": [
     {
       "team": "Boston",
-      "probability": 0.149
+      "probability": 0.146
     },
     {
       "team": "New York",
-      "probability": 0.062
+      "probability": 0.06
     },
     {
       "team": "Philadelphia",
-      "probability": 0.046
+      "probability": 0.052000000000000005
     },
     {
       "team": "Toronto",
-      "probability": 0.011000000000000001
+      "probability": 0.009000000000000001
     },
     {
       "team": "Brooklyn",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.078
+      "probability": 0.07200000000000001
     },
     {
       "team": "Cleveland",
-      "probability": 0.021
+      "probability": 0.019
     },
     {
       "team": "Indiana",
@@ -63,19 +63,19 @@
     },
     {
       "team": "Okla City",
-      "probability": 0.096
+      "probability": 0.08900000000000001
     },
     {
       "team": "Minnesota",
-      "probability": 0.09300000000000001
+      "probability": 0.142
     },
     {
       "team": "Portland",
-      "probability": 0.027999999999999997
+      "probability": 0.026000000000000002
     },
     {
       "team": "Denver",
-      "probability": 0.01
+      "probability": 0.009000000000000001
     },
     {
       "team": "Utah",
@@ -83,11 +83,11 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.031
+      "probability": 0.027999999999999997
     },
     {
       "team": "Golden State",
-      "probability": 0.066
+      "probability": 0.064
     },
     {
       "team": "Phoenix",
@@ -103,15 +103,15 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.259
+      "probability": 0.24
     },
     {
       "team": "Houston",
-      "probability": 0.04
+      "probability": 0.037000000000000005
     },
     {
       "team": "Dallas",
-      "probability": 0.002
+      "probability": 0.001
     },
     {
       "team": "Memphis",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 0.998,
+  "probability_sum": 1.0,
   "suspect": false
 }
