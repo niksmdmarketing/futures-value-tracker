@@ -3,11 +3,11 @@
   "teams": [
     {
       "team": "Boston",
-      "probability": 0.152
+      "probability": 0.21
     },
     {
       "team": "Philadelphia",
-      "probability": 0.055
+      "probability": 0.051
     },
     {
       "team": "New York",
@@ -15,7 +15,7 @@
     },
     {
       "team": "Toronto",
-      "probability": 0.01
+      "probability": 0.006999999999999999
     },
     {
       "team": "Brooklyn",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.046
+      "probability": 0.04
     },
     {
       "team": "Cleveland",
-      "probability": 0.015
+      "probability": 0.012
     },
     {
       "team": "Indiana",
@@ -42,12 +42,12 @@
       "probability": 0.0
     },
     {
-      "team": "Miami",
-      "probability": 0.004
-    },
-    {
       "team": "Atlanta",
       "probability": 0.002
+    },
+    {
+      "team": "Miami",
+      "probability": 0.003
     },
     {
       "team": "Orlando",
@@ -63,15 +63,15 @@
     },
     {
       "team": "Okla City",
-      "probability": 0.073
+      "probability": 0.075
     },
     {
       "team": "Minnesota",
-      "probability": 0.086
+      "probability": 0.08199999999999999
     },
     {
       "team": "Portland",
-      "probability": 0.028999999999999998
+      "probability": 0.027000000000000003
     },
     {
       "team": "Denver",
@@ -83,11 +83,11 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.03
+      "probability": 0.028999999999999998
     },
     {
       "team": "Golden State",
-      "probability": 0.038
+      "probability": 0.037000000000000005
     },
     {
       "team": "Phoenix",
@@ -103,11 +103,11 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.364
+      "probability": 0.32
     },
     {
       "team": "Houston",
-      "probability": 0.03
+      "probability": 0.04
     },
     {
       "team": "Memphis",
@@ -115,7 +115,7 @@
     },
     {
       "team": "Dallas",
-      "probability": 0.001
+      "probability": 0.0
     },
     {
       "team": "New Orleans",
