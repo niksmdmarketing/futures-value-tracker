@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.182
+      "probability": 0.183
     },
     {
       "team": "New England",
@@ -19,7 +19,7 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.084
+      "probability": 0.083
     },
     {
       "team": "Pittsburgh",
@@ -35,11 +35,11 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.165
+      "probability": 0.161
     },
     {
       "team": "Houston",
-      "probability": 0.005
+      "probability": 0.006999999999999999
     },
     {
       "team": "Indianapolis",
@@ -51,11 +51,11 @@
     },
     {
       "team": "Denver",
-      "probability": 0.044000000000000004
+      "probability": 0.05
     },
     {
       "team": "Kansas City",
-      "probability": 0.067
+      "probability": 0.065
     },
     {
       "team": "Las Vegas",
@@ -83,27 +83,27 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.064
+      "probability": 0.065
     },
     {
       "team": "Detroit",
-      "probability": 0.057999999999999996
+      "probability": 0.064
     },
     {
       "team": "Chicago",
-      "probability": 0.048
+      "probability": 0.046
     },
     {
       "team": "Green Bay",
-      "probability": 0.012
+      "probability": 0.011000000000000001
     },
     {
       "team": "Tampa Bay",
-      "probability": 0.02
+      "probability": 0.019
     },
     {
       "team": "Carolina",
-      "probability": 0.005
+      "probability": 0.004
     },
     {
       "team": "New Orleans",
@@ -115,7 +115,7 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.134
+      "probability": 0.129
     },
     {
       "team": "LA Rams",
@@ -123,7 +123,7 @@
     },
     {
       "team": "Seattle",
-      "probability": 0.027999999999999997
+      "probability": 0.028999999999999998
     },
     {
       "team": "Arizona",
