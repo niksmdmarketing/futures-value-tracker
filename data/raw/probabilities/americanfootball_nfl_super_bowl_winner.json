@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Buffalo",
-      "probability": 0.183
+      "probability": 0.182
     },
     {
       "team": "New England",
@@ -19,7 +19,7 @@
     },
     {
       "team": "Cincinnati",
-      "probability": 0.083
+      "probability": 0.08900000000000001
     },
     {
       "team": "Pittsburgh",
@@ -35,11 +35,11 @@
     },
     {
       "team": "Jacksonville",
-      "probability": 0.161
+      "probability": 0.157
     },
     {
       "team": "Houston",
-      "probability": 0.006999999999999999
+      "probability": 0.008
     },
     {
       "team": "Indianapolis",
@@ -51,11 +51,11 @@
     },
     {
       "team": "Denver",
-      "probability": 0.05
+      "probability": 0.045
     },
     {
       "team": "Kansas City",
-      "probability": 0.065
+      "probability": 0.068
     },
     {
       "team": "Las Vegas",
@@ -67,7 +67,7 @@
     },
     {
       "team": "NY Giants",
-      "probability": 0.009000000000000001
+      "probability": 0.01
     },
     {
       "team": "Dallas",
@@ -83,27 +83,27 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.065
+      "probability": 0.062
     },
     {
       "team": "Detroit",
-      "probability": 0.064
+      "probability": 0.061
     },
     {
       "team": "Chicago",
-      "probability": 0.046
+      "probability": 0.053
     },
     {
       "team": "Green Bay",
-      "probability": 0.011000000000000001
+      "probability": 0.012
     },
     {
       "team": "Tampa Bay",
-      "probability": 0.019
+      "probability": 0.02
     },
     {
       "team": "Carolina",
-      "probability": 0.004
+      "probability": 0.005
     },
     {
       "team": "New Orleans",
@@ -115,7 +115,7 @@
     },
     {
       "team": "San Francisco",
-      "probability": 0.129
+      "probability": 0.125
     },
     {
       "team": "LA Rams",
@@ -123,7 +123,7 @@
     },
     {
       "team": "Seattle",
-      "probability": 0.028999999999999998
+      "probability": 0.027999999999999997
     },
     {
       "team": "Arizona",
