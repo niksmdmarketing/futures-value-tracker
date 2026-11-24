@@ -3,7 +3,7 @@
   "teams": [
     {
       "team": "Boston",
-      "probability": 0.11199999999999999
+      "probability": 0.11900000000000001
     },
     {
       "team": "New York",
@@ -11,11 +11,11 @@
     },
     {
       "team": "Philadelphia",
-      "probability": 0.063
+      "probability": 0.047
     },
     {
       "team": "Toronto",
-      "probability": 0.006
+      "probability": 0.004
     },
     {
       "team": "Brooklyn",
@@ -23,15 +23,15 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.055999999999999994
+      "probability": 0.055
     },
     {
       "team": "Cleveland",
-      "probability": 0.018000000000000002
+      "probability": 0.011000000000000001
     },
     {
       "team": "Indiana",
-      "probability": 0.0
+      "probability": 0.001
     },
     {
       "team": "Chicago",
@@ -43,11 +43,11 @@
     },
     {
       "team": "Atlanta",
-      "probability": 0.005
+      "probability": 0.006
     },
     {
       "team": "Miami",
-      "probability": 0.009000000000000001
+      "probability": 0.01
     },
     {
       "team": "Orlando",
@@ -63,15 +63,15 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.111
-    },
-    {
-      "team": "Okla City",
-      "probability": 0.055999999999999994
+      "probability": 0.129
     },
     {
       "team": "Portland",
-      "probability": 0.037000000000000005
+      "probability": 0.051
+    },
+    {
+      "team": "Okla City",
+      "probability": 0.042
     },
     {
       "team": "Denver",
@@ -83,15 +83,15 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.016
-    },
-    {
-      "team": "Golden State",
-      "probability": 0.009000000000000001
+      "probability": 0.017
     },
     {
       "team": "Phoenix",
       "probability": 0.001
+    },
+    {
+      "team": "Golden State",
+      "probability": 0.008
     },
     {
       "team": "LA Clippers",
@@ -107,7 +107,7 @@
     },
     {
       "team": "Houston",
-      "probability": 0.038
+      "probability": 0.036000000000000004
     },
     {
       "team": "Memphis",
