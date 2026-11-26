@@ -3,15 +3,15 @@
   "teams": [
     {
       "team": "Boston",
-      "probability": 0.12300000000000001
+      "probability": 0.122
     },
     {
       "team": "New York",
-      "probability": 0.083
+      "probability": 0.10400000000000001
     },
     {
       "team": "Philadelphia",
-      "probability": 0.045
+      "probability": 0.048
     },
     {
       "team": "Toronto",
@@ -23,11 +23,11 @@
     },
     {
       "team": "Detroit",
-      "probability": 0.071
+      "probability": 0.066
     },
     {
       "team": "Cleveland",
-      "probability": 0.011000000000000001
+      "probability": 0.006999999999999999
     },
     {
       "team": "Indiana",
@@ -47,7 +47,7 @@
     },
     {
       "team": "Miami",
-      "probability": 0.01
+      "probability": 0.008
     },
     {
       "team": "Orlando",
@@ -63,15 +63,15 @@
     },
     {
       "team": "Minnesota",
-      "probability": 0.125
+      "probability": 0.146
     },
     {
       "team": "Portland",
-      "probability": 0.05
+      "probability": 0.055
     },
     {
       "team": "Okla City",
-      "probability": 0.042
+      "probability": 0.03
     },
     {
       "team": "Denver",
@@ -83,15 +83,15 @@
     },
     {
       "team": "LA Lakers",
-      "probability": 0.018000000000000002
+      "probability": 0.017
+    },
+    {
+      "team": "Golden State",
+      "probability": 0.01
     },
     {
       "team": "Phoenix",
       "probability": 0.001
-    },
-    {
-      "team": "Golden State",
-      "probability": 0.008
     },
     {
       "team": "LA Clippers",
@@ -103,7 +103,7 @@
     },
     {
       "team": "San Antonio",
-      "probability": 0.354
+      "probability": 0.325
     },
     {
       "team": "Houston",
@@ -111,7 +111,7 @@
     },
     {
       "team": "Memphis",
-      "probability": 0.008
+      "probability": 0.009000000000000001
     },
     {
       "team": "Dallas",
@@ -122,6 +122,6 @@
       "probability": 0.0
     }
   ],
-  "probability_sum": 1.0010000000000001,
+  "probability_sum": 1.0,
   "suspect": false
 }
